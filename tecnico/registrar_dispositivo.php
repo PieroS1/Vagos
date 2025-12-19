@@ -36,7 +36,7 @@ $clientes = $pdo->query("SELECT id, username FROM users WHERE role = 'cliente'")
         <input type="text" name="nombre" placeholder="Nombre del dispositivo" required>
         <select name="tipo" required>
             <option value="">Tipo de dispositivo</option>
-            <option value="sensor">Sensor</option>
+            <option value="sensor">Sensor de</option>
             <option value="actuador">Actuador</option>
             <option value="gateway">Gateway</option>
             <option value="controlador">Controlador</option>

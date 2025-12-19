@@ -17,7 +17,7 @@ try {
     // Contar técnicos pendientes
     $stmtTecnicosPendientes = $pdo->prepare("SELECT COUNT(*) FROM users WHERE role = 'tecnico' AND status = 'pending'");
     $stmtTecnicosPendientes->execute();
-    $tecnicosPendientes = $stmtTecnicosPendientes->fetchColumn();
+    $tecnicosPendientes = $stmtTecnicosPendientes->fetchColumn();   
 
     // Contar clientes
     $stmtClientes = $pdo->prepare("SELECT COUNT(*) FROM users WHERE role = 'cliente'");
