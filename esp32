@@ -1,0 +1,253 @@
+#include <WiFi.h>
+#include <PubSubClient.h>
+#include <DHT.h>
+
+// ========== CONFIGURACIÓN WiFi ==========
+const char* ssid = "RAFITA2021-2.4G";
+const char* password = "2107772000";
+
+// ========== CONFIGURACIÓN MQTT ==========
+const char* mqtt_server = "192.168.15.66"; // VERIFICA ESTA IP
+const int mqtt_port = 1883;
+
+// ========== CONFIGURACIÓN DISPOSITIVO ==========
+const char* dispositivo_codigo = "ESP32_SM0S69"; // MISMO QUE EN LA WEB
+
+// ========== CONFIGURACIÓN SENSOR ==========
+#define DHTPIN 4
+#define DHTTYPE DHT11
+DHT dht(DHTPIN, DHTTYPE);
+
+WiFiClient espClient;
+PubSubClient client(espClient);
+
+// ========== VARIABLES ==========
+unsigned long lastReconnectAttempt = 0;
+unsigned long lastSensorRead = 0;
+const unsigned long sensorInterval = 30000; // 30 segundos
+
+// ========== DECLARACIONES DE FUNCIONES ==========
+void setup_wifi();
+String obtenerTimestamp();
+void leerYPublicarSensores(bool forzar = false);
+bool reconnect();
+void callback(char* topic, byte* payload, unsigned int length);
+
+// ========== IMPLEMENTACIÓN DE FUNCIONES ==========
+String obtenerTimestamp() {
+  // Simular timestamp (en producción usar NTP)
+  unsigned long segundos = millis() / 1000;
+  unsigned long minutos = segundos / 60;
+  unsigned long horas = minutos / 60;
+  
+  char buffer[20];
+  sprintf(buffer, "%02lu:%02lu:%02lu", horas % 24, minutos % 60, segundos % 60);
+  return String(buffer);
+}
+
+void leerYPublicarSensores(bool forzar) {
+  unsigned long ahora = millis();
+  
+  if (forzar || (ahora - lastSensorRead >= sensorInterval)) {
+    lastSensorRead = ahora;
+    
+    // Leer sensores
+    float temperatura = dht.readTemperature();
+    float humedad = dht.readHumidity();
+    
+    if (!isnan(temperatura) && !isnan(humedad)) {
+      // Crear JSON
+      String json = "{";
+      json += "\"dispositivo\":\"" + String(dispositivo_codigo) + "\",";
+      json += "\"temperatura\":" + String(temperatura, 2) + ",";
+      json += "\"humedad\":" + String(humedad, 2) + ",";
+      json += "\"timestamp\":\"" + obtenerTimestamp() + "\",";
+      json += "\"voltaje\":" + String(3.3, 2); // Simulado
+      json += "}";
+      
+      // Publicar datos
+      bool publicado = client.publish("esp32/sensor/data", json.c_str());
+      
+      if (publicado) {
+        Serial.print("📤 Datos publicados: ");
+        Serial.println(json);
+        
+        // LED de confirmación
+        digitalWrite(2, HIGH);
+        delay(100);
+        digitalWrite(2, LOW);
+      } else {
+        Serial.println("❌ Error publicando datos");
+      }
+    } else {
+      Serial.println("⚠️ Error leyendo sensor DHT");
+      
+      // Publicar error
+      String errorJson = "{";
+      errorJson += "\"dispositivo\":\"" + String(dispositivo_codigo) + "\",";
+      errorJson += "\"error\":\"sensor_dht_fallo\",";
+      errorJson += "\"timestamp\":\"" + obtenerTimestamp() + "\"";
+      errorJson += "}";
+      
+      client.publish("esp32/sensor/error", errorJson.c_str());
+    }
+  }
+}
+
+void setup_wifi() {
+  delay(10);
+  Serial.println();
+  Serial.print("Conectando a WiFi: ");
+  Serial.println(ssid);
+
+  WiFi.begin(ssid, password);
+  WiFi.setSleep(false); // Mejorar estabilidad
+
+  int attempts = 0;
+  while (WiFi.status() != WL_CONNECTED && attempts < 20) {
+    delay(500);
+    Serial.print(".");
+    attempts++;
+  }
+
+  if (WiFi.status() == WL_CONNECTED) {
+    Serial.println("");
+    Serial.println("✅ WiFi conectado");
+    Serial.print("📶 IP: ");
+    Serial.println(WiFi.localIP());
+    Serial.print("📡 RSSI: ");
+    Serial.println(WiFi.RSSI());
+  } else {
+    Serial.println("\n❌ Falló la conexión WiFi");
+  }
+}
+
+bool reconnect() {
+  Serial.print("🔄 Conectando a MQTT... ");
+  
+  if (client.connect(dispositivo_codigo)) {
+    Serial.println("✅ Conectado");
+    
+    // Suscribirse a comandos
+    client.subscribe("esp32/control");
+    Serial.println("👂 Suscrito a: esp32/control");
+    
+    // Publicar estado inicial
+    String statusMsg = "{";
+    statusMsg += "\"dispositivo\":\"" + String(dispositivo_codigo) + "\",";
+    statusMsg += "\"estado\":\"online\",";
+    statusMsg += "\"ip\":\"" + WiFi.localIP().toString() + "\",";
+    statusMsg += "\"rssi\":" + String(WiFi.RSSI()) + ",";
+    statusMsg += "\"timestamp\":\"" + obtenerTimestamp() + "\"";
+    statusMsg += "}";
+    
+    client.publish("esp32/sensor/status", statusMsg.c_str());
+    Serial.print("📤 Estado publicado: ");
+    Serial.println(statusMsg);
+    
+    return true;
+  } else {
+    Serial.print("❌ Falló, rc=");
+    Serial.print(client.state());
+    Serial.println(" (2=ID inválido, 3=Server no disponible, 4=Credenciales, 5=No autorizado)");
+    return false;
+  }
+}
+
+void callback(char* topic, byte* payload, unsigned int length) {
+  Serial.print("📨 Mensaje recibido [");
+  Serial.print(topic);
+  Serial.print("]: ");
+  
+  String message = "";
+  for (int i = 0; i < length; i++) {
+    message += (char)payload[i];
+  }
+  Serial.println(message);
+  
+  // Procesar comandos
+  if (String(topic) == "esp32/control") {
+    if (message.indexOf("led_on") != -1) {
+      digitalWrite(2, HIGH);
+      Serial.println("💡 LED encendido");
+      
+      // Enviar confirmación
+      String response = "{\"dispositivo\":\"" + String(dispositivo_codigo) + 
+                       "\",\"comando\":\"led_on\",\"estado\":\"ejecutado\"}";
+      client.publish("esp32/response", response.c_str());
+      
+    } else if (message.indexOf("led_off") != -1) {
+      digitalWrite(2, LOW);
+      Serial.println("💡 LED apagado");
+      
+      // Enviar confirmación
+      String response = "{\"dispositivo\":\"" + String(dispositivo_codigo) + 
+                       "\",\"comando\":\"led_off\",\"estado\":\"ejecutado\"}";
+      client.publish("esp32/response", response.c_str());
+      
+    } else if (message.indexOf("read_sensors") != -1) {
+      Serial.println("📊 Comando: Leer sensores ahora");
+      leerYPublicarSensores(true); // Forzar lectura
+      
+    } else if (message.indexOf("reboot") != -1) {
+      Serial.println("🔄 Comando: Reiniciar ESP32");
+      ESP.restart();
+    }
+  }
+}
+
+void setup() {
+  Serial.begin(115200);
+  Serial.println();
+  Serial.println("🚀 Iniciando ESP32 IoT...");
+  Serial.println("========================");
+  
+  // Configurar LED
+  pinMode(2, OUTPUT);
+  digitalWrite(2, LOW);
+  
+  // Inicializar sensor
+  dht.begin();
+  Serial.println("✅ Sensor DHT inicializado");
+  
+  // Conectar WiFi
+  setup_wifi();
+  
+  // Configurar MQTT
+  client.setServer(mqtt_server, mqtt_port);
+  client.setCallback(callback);
+  client.setBufferSize(1024); // Aumentar buffer para mensajes JSON
+  client.setKeepAlive(60); // Keep alive 60 segundos
+  
+  Serial.println("✅ Configuración MQTT completada");
+  Serial.println("================================");
+}
+
+void loop() {
+  // Mantener conexión WiFi
+  if (WiFi.status() != WL_CONNECTED) {
+    Serial.println("⚠️ WiFi desconectado, reconectando...");
+    setup_wifi();
+    delay(1000);
+  }
+  
+  // Mantener conexión MQTT
+  if (!client.connected()) {
+    unsigned long ahora = millis();
+    
+    if (ahora - lastReconnectAttempt > 5000) {
+      lastReconnectAttempt = ahora;
+      
+      if (reconnect()) {
+        lastReconnectAttempt = 0;
+      }
+    }
+  } else {
+    client.loop();
+  }
+  
+  // Leer y publicar sensores
+  leerYPublicarSensores();
+  
+  delay(100); // Pequeño delay para estabilidad
+}
