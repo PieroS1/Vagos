@@ -1,0 +1,19 @@
+{
+    "name": "piero/iot-system",
+    "autoload": {
+        "psr-4": {
+            "Piero\\IotSystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Piero",
+            "email": "psanchezsa@unsa.edu.pe"
+        }
+    ],
+    "require": {
+        "php-mqtt/client": "^2.3",
+        "cboden/ratchet": "^0.4.4",
+        "react/event-loop": "^1.6"
+    }
+}

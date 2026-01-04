@@ -20,7 +20,9 @@ $tecnico_id = $_SESSION["user_id"];
 
 require "../config/db.php";
 
-// Obtener dispositivos del técnico - CONSULTA CORREGIDA
+// ================================================
+// CONSULTA PRINCIPAL - OBTENER DISPOSITIVOS
+// ================================================
 $stmt = $pdo->prepare("
     SELECT d.*, u.username as cliente_nombre 
     FROM dispositivos d
@@ -29,7 +31,89 @@ $stmt = $pdo->prepare("
     ORDER BY d.created_at DESC
 ");
 $stmt->execute([$tecnico_id]);
-$dispositivos = $stmt->fetchAll(PDO::FETCH_ASSOC);
+$dispositivos_raw = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+// ================================================
+// SOLUCIÓN DEFINITIVA: PROCESAR SIN REFERENCIAS
+// ================================================
+$total = count($dispositivos_raw);
+$activos = 0;
+$mqtt_count = 0;
+$tiene_datos = 0;
+$dispositivos = []; // ARRAY NUEVO para evitar problemas
+
+foreach($dispositivos_raw as $dispositivo_original) {
+    // 1. Crear COPIA del dispositivo (no referencia)
+    $dispositivo = [];
+    foreach($dispositivo_original as $key => $value) {
+        $dispositivo[$key] = $value;
+    }
+    
+    // 2. Contadores básicos
+    if($dispositivo['estado'] == 'activo') $activos++;
+    if($dispositivo['protocolo'] == 'MQTT') $mqtt_count++;
+    
+    // 3. INICIALIZAR TODOS LOS CAMPOS (IMPORTANTE)
+    $dispositivo['en_linea'] = false;
+    $dispositivo['ultima_lectura'] = null;
+    $dispositivo['total_datos'] = 0;
+    $dispositivo['ultima_temp'] = null;
+    $dispositivo['ultima_hum'] = null;
+    
+    // 4. Solo procesar dispositivos MQTT con código
+    if($dispositivo['protocolo'] == 'MQTT' && !empty($dispositivo['codigo'])) {
+        $codigo = trim($dispositivo['codigo']);
+        
+        // DEBUG: Verificar código
+        error_log("Procesando dispositivo ID: {$dispositivo['id']}, Código: '{$codigo}'");
+        
+        // 5. CONSULTA ÚNICA OPTIMIZADA
+        $stmt = $pdo->prepare("
+            SELECT 
+                COUNT(*) as total,
+                MAX(timestamp) as ultima_lectura,
+                SUM(CASE WHEN timestamp >= DATE_SUB(NOW(), INTERVAL 5 MINUTE) THEN 1 ELSE 0 END) as recientes,
+                GROUP_CONCAT(CASE WHEN sensor = 'temperatura' THEN valor END ORDER BY timestamp DESC LIMIT 1) as temp,
+                GROUP_CONCAT(CASE WHEN sensor = 'humedad' THEN valor END ORDER BY timestamp DESC LIMIT 1) as hum
+            FROM mqtt_data 
+            WHERE dispositivo_id = ?
+            GROUP BY dispositivo_id
+        ");
+        $stmt->execute([$codigo]);
+        $resultado = $stmt->fetch(PDO::FETCH_ASSOC);
+        
+        if($resultado) {
+            // 6. ASIGNAR VALORES CORRECTAMENTE
+            $dispositivo['total_datos'] = (int)$resultado['total'];
+            $dispositivo['ultima_lectura'] = $resultado['ultima_lectura'];
+            $dispositivo['en_linea'] = ($resultado['recientes'] > 0);
+            $dispositivo['ultima_temp'] = $resultado['temp'];
+            $dispositivo['ultima_hum'] = $resultado['hum'];
+            
+            if($dispositivo['total_datos'] > 0) {
+                $tiene_datos++;
+            }
+            
+            // DEBUG: Ver resultados
+            error_log("Resultado para {$codigo}: datos={$dispositivo['total_datos']}, online=" . ($dispositivo['en_linea'] ? 'si' : 'no'));
+        } else {
+            error_log("Sin datos para código: {$codigo}");
+        }
+    }
+    
+    // 7. Añadir al array FINAL
+    $dispositivos[] = $dispositivo;
+}
+
+$porcentaje_activos = $total > 0 ? round(($activos / $total) * 100) : 0;
+
+// DEBUG FINAL
+error_log("Total dispositivos procesados: " . count($dispositivos));
+foreach($dispositivos as $d) {
+    if($d['protocolo'] == 'MQTT') {
+        error_log("Dispositivo {$d['id']} ({$d['codigo']}): datos={$d['total_datos']}, temp={$d['ultima_temp']}, hum={$d['ultima_hum']}");
+    }
+}
 ?>
 
 <!DOCTYPE html>
@@ -410,9 +494,199 @@ $dispositivos = $stmt->fetchAll(PDO::FETCH_ASSOC);
         .device-card {
             animation: fadeIn 0.5s ease forwards;
         }
+        
+        /* Indicador de estado MQTT */
+        .mqtt-indicator {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+        
+        .mqtt-online {
+            background-color: #27ae60;
+            box-shadow: 0 0 8px #27ae60;
+        }
+        
+        .mqtt-offline {
+            background-color: #e74c3c;
+            box-shadow: 0 0 8px #e74c3c;
+        }
+        
+        .mqtt-unknown {
+            background-color: #f39c12;
+            box-shadow: 0 0 8px #f39c12;
+        }
+        
+        /* Badge para datos MQTT */
+        .mqtt-data-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            margin-left: 5px;
+            font-weight: 600;
+        }
+        
+        .badge-success {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .badge-warning {
+            background: #fff3cd;
+            color: #856404;
+        }
+        
+        /* Panel de control MQTT */
+        .mqtt-control-panel {
+            background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+            color: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(108, 92, 231, 0.2);
+        }
+        
+        .btn-delete {
+            background: #e74c3c;
+            color: white;
+        }
+
+        .btn-delete:hover {
+            background: #c0392b;
+        }
+
+        .mqtt-control-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .mqtt-control-header h3 {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+        
+        .mqtt-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .btn-mqtt-action {
+            padding: 8px 15px;
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 8px;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .btn-mqtt-action:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        
+        .mqtt-stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .mqtt-stat {
+            text-align: center;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+        }
+        
+        .mqtt-stat-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .mqtt-stat-label {
+            font-size: 0.8rem;
+            opacity: 0.9;
+        }
+        
+        /* Tooltip para datos MQTT */
+        .mqtt-tooltip {
+            position: relative;
+            cursor: pointer;
+        }
+        
+        .mqtt-tooltip .tooltip-text {
+            visibility: hidden;
+            width: 200px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 8px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+            transition: opacity 0.3s;
+            font-size: 0.8rem;
+        }
+        
+        .mqtt-tooltip:hover .tooltip-text {
+            visibility: visible;
+            opacity: 1;
+        }
+        
+        .btn-volver {
+            padding: 10px 20px;
+            background: #6c5ce7;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+        
+        .btn-volver:hover {
+            background: #5b4fcf;
+        }
+        
+        /* Indicador de código MQTT */
+        .mqtt-code-indicator {
+            font-size: 0.8rem;
+            color: #666;
+            margin-top: 5px;
+            font-family: monospace;
+            background: #f1f2f6;
+            padding: 2px 8px;
+            border-radius: 4px;
+            display: inline-block;
+        }
+        
+        /* Mensajes de debug (solo desarrollo) */
+        .debug-info {
+            font-size: 0.7rem;
+            color: #888;
+            font-family: monospace;
+            background: #f8f9fa;
+            padding: 5px;
+            border-radius: 3px;
+            margin-top: 5px;
+            display: none; /* Ocultar en producción */
+        }
+        
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
     <div class="dashboard-container">
         <!-- Barra lateral -->
@@ -457,27 +731,20 @@ $dispositivos = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     <label><i class="fas fa-search"></i> Buscar dispositivo:</label>
                     <input type="text" id="searchDevice" placeholder="Nombre o ubicación..." onkeyup="filterDevices()">
                 </div>
+                
+                <!-- Filtro solo MQTT -->
+                <div class="filter-group">
+                    <label>
+                        <input type="checkbox" id="filterMQTT" onchange="filtrarSoloMQTT()">
+                        <i class="fas fa-broadcast-tower"></i> Mostrar solo MQTT
+                    </label>
+                </div>
             </div>
             
             <div class="stats-card">
                 <h3 style="color: #2d3436; margin-bottom: 15px; font-size: 1.1rem;">
                     <i class="fas fa-chart-bar"></i> Estadísticas
                 </h3>
-                
-                <?php
-                // Calcular estadísticas
-                $total = count($dispositivos);
-                $activos = 0;
-                $mqtt_count = 0;
-                
-                foreach($dispositivos as $disp) {
-                    if($disp['estado'] == 'activo') $activos++;
-                    if($disp['protocolo'] == 'MQTT') $mqtt_count++;
-                }
-                
-                $inactivos = $total - $activos;
-                $porcentaje_activos = $total > 0 ? round(($activos / $total) * 100) : 0;
-                ?>
                 
                 <div class="stat-item">
                     <span class="stat-label">Total dispositivos</span>
@@ -492,6 +759,10 @@ $dispositivos = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     <span class="stat-value"><?php echo $mqtt_count; ?></span>
                 </div>
                 <div class="stat-item">
+                    <span class="stat-label">Con datos MQTT</span>
+                    <span class="stat-value"><?php echo $tiene_datos; ?></span>
+                </div>
+                <div class="stat-item">
                     <span class="stat-label">Técnico ID</span>
                     <span class="stat-value">#<?php echo $tecnico_id; ?></span>
                 </div>
@@ -502,10 +773,11 @@ $dispositivos = $stmt->fetchAll(PDO::FETCH_ASSOC);
             </a>
             
             <div style="margin-top: 20px; text-align: center;">
-                <a href="dashboard_mqtt.php" style="color: #6c5ce7; text-decoration: none; font-weight: 500;">
-                    <i class="fas fa-satellite-dish"></i> Ir a Dashboard MQTT
-                </a>
+                <a href="index.php" class="btn-volver" style="text-decoration: none;">
+                    <i class="fas fa-arrow-left"></i> Volver al Panel
+                </a> 
             </div>
+            
         </div>
         
         <!-- Contenido principal -->
@@ -513,7 +785,70 @@ $dispositivos = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <div class="header">
                 <h1><i class="fas fa-sitemap"></i> Mis Dispositivos IoT</h1>
                 <p>Gestiona y monitorea todos tus dispositivos conectados</p>
+                <p style="font-size: 0.9rem; color: #888; margin-top: 10px;">
+                    <i class="fas fa-info-circle"></i> Mostrando <?php echo $total; ?> dispositivo(s) | 
+                    Última actualización: <?php echo date('H:i:s'); ?>
+                </p>
             </div>
+            
+            <!-- Panel de control MQTT -->
+            <?php if($mqtt_count > 0): ?>
+            <div class="mqtt-control-panel">
+                <div class="mqtt-control-header">
+                    <h3><i class="fas fa-broadcast-tower"></i> Control MQTT</h3>
+                    <div class="mqtt-buttons">
+                        <button class="btn-mqtt-action" onclick="testMQTT()">
+                            <i class="fas fa-bolt"></i> Probar Conexión
+                        </button>
+                        <button class="btn-mqtt-action" onclick="mostrarInstruccionesMQTT()">
+                            <i class="fas fa-info-circle"></i> Instrucciones
+                        </button>
+                        <a href="dashboard_mqtt.php" class="btn-mqtt-action" style="text-decoration: none;">
+                            <i class="fas fa-chart-line"></i> Dashboard
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="mqtt-stats">
+                    <div class="mqtt-stat">
+                        <div class="mqtt-stat-value"><?php echo $mqtt_count; ?></div>
+                        <div class="mqtt-stat-label">Dispositivos MQTT</div>
+                    </div>
+                    <div class="mqtt-stat">
+                        <div class="mqtt-stat-value"><?php echo $tiene_datos; ?></div>
+                        <div class="mqtt-stat-label">Enviando datos</div>
+                    </div>
+                    <div class="mqtt-stat">
+                        <div class="mqtt-stat-value">
+                            <?php 
+                            // Contar dispositivos MQTT en línea (últimos 5 minutos)
+                            $en_linea = 0;
+                            foreach($dispositivos as $d) {
+                                if(isset($d['en_linea']) && $d['en_linea']) {
+                                    $en_linea++;
+                                }
+                            }
+                            echo $en_linea;
+                            ?>
+                        </div>
+                        <div class="mqtt-stat-label">En línea ahora</div>
+                    </div>
+                    <div class="mqtt-stat">
+                        <div class="mqtt-stat-value">
+                            <?php 
+                            // Calcular total de datos MQTT
+                            $total_datos_mqtt = 0;
+                            foreach($dispositivos as $d) {
+                                $total_datos_mqtt += $d['total_datos'] ?? 0;
+                            }
+                            echo number_format($total_datos_mqtt);
+                            ?>
+                        </div>
+                        <div class="mqtt-stat-label">Lecturas totales</div>
+                    </div>
+                </div>
+            </div>
+            <?php endif; ?>
             
             <?php if(empty($dispositivos)): ?>
                 <div class="empty-state">
@@ -549,21 +884,54 @@ $dispositivos = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         // Determinar color de protocolo
                         $protocol_color = $disp['protocolo'] == 'MQTT' ? '#6c5ce7' : 
                                          ($disp['protocolo'] == 'HTTP' ? '#0984e3' : '#00b894');
+                        
+                        // Para dispositivos MQTT, verificar estado
+                        $mqtt_indicator = '';
+                        $mqtt_badge = '';
+                        $mqtt_code_info = '';
+                        if($disp['protocolo'] == 'MQTT') {
+                            $mqtt_indicator_class = 'mqtt-unknown';
+                            if(isset($disp['en_linea'])) {
+                                $mqtt_indicator_class = $disp['en_linea'] ? 'mqtt-online' : 'mqtt-offline';
+                            }
+                            $mqtt_indicator = '<div class="mqtt-indicator ' . $mqtt_indicator_class . '"></div>';
+                            
+                            // Badge para datos MQTT
+                            if(isset($disp['total_datos']) && $disp['total_datos'] > 0) {
+                                $mqtt_badge = '<span class="mqtt-data-badge badge-success">' . $disp['total_datos'] . ' datos</span>';
+                            }
+                            
+                            // Info de código MQTT
+                            $mqtt_code_info = !empty($disp['codigo']) ? 
+                                '<div class="mqtt-code-indicator">ID MQTT: ' . htmlspecialchars($disp['codigo']) . '</div>' : '';
+                        }
+                        
+                        // Debug info (solo desarrollo)
+                        $debug_info = "ID:{$disp['id']}|Codigo:{$disp['codigo']}|Datos:{$disp['total_datos']}|Online:" . ($disp['en_linea']?'si':'no');
                     ?>
                     <div class="device-card" 
+                         data-id="<?php echo $disp['id']; ?>"
                          data-type="<?php echo strtolower($disp['tipo']); ?>"
                          data-protocol="<?php echo $disp['protocolo']; ?>"
                          data-status="<?php echo $disp['estado']; ?>"
                          data-name="<?php echo strtolower($disp['nombre']); ?>"
-                         data-location="<?php echo strtolower($disp['ubicacion'] ?? ''); ?>">
+                         data-location="<?php echo strtolower($disp['ubicacion'] ?? ''); ?>"
+                         data-mqtt="<?php echo $disp['protocolo'] == 'MQTT' ? '1' : '0'; ?>"
+                         data-debug="<?php echo htmlspecialchars($debug_info); ?>">
+                        
+                        <?php echo $mqtt_indicator; ?>
                         
                         <div class="device-header">
                             <div class="device-icon <?php echo $icon_class; ?>">
                                 <?php echo $icon; ?>
                             </div>
                             <div class="device-info">
-                                <h3><?php echo htmlspecialchars($disp['nombre']); ?></h3>
+                                <h3>
+                                    <?php echo htmlspecialchars($disp['nombre']); ?>
+                                    <?php echo $mqtt_badge; ?>
+                                </h3>
                                 <p><?php echo htmlspecialchars($disp['tipo']); ?></p>
+                                <?php echo $mqtt_code_info; ?>
                             </div>
                             <div class="device-status status-<?php echo $disp['estado']; ?>">
                                 <?php echo ucfirst($disp['estado']); ?>
@@ -587,8 +955,37 @@ $dispositivos = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                 <span class="detail-label"><i class="fas fa-network-wired"></i> Protocolo</span>
                                 <span class="detail-value" style="color: <?php echo $protocol_color; ?>; font-weight: bold;">
                                     <?php echo $disp['protocolo']; ?>
+                                    <?php if($disp['protocolo'] == 'MQTT'): ?>
+                                        <span style="font-size: 0.8rem; margin-left: 5px;">
+                                            (<?php echo isset($disp['en_linea']) && $disp['en_linea'] ? '🟢 En línea' : '🔴 Offline'; ?>)
+                                        </span>
+                                    <?php endif; ?>
                                 </span>
                             </div>
+                            
+                            <?php if($disp['protocolo'] == 'MQTT' && isset($disp['total_datos']) && $disp['total_datos'] > 0): ?>
+                            <div class="detail-row">
+                                <span class="detail-label"><i class="fas fa-database"></i> Datos MQTT</span>
+                                <span class="detail-value">
+                                    <span class="mqtt-tooltip">
+                                        <?php echo $disp['total_datos']; ?> lecturas
+                                        <span class="tooltip-text">
+                                            <strong>Última lectura:</strong> 
+                                            <?php echo $disp['ultima_lectura'] ? date('d/m H:i', strtotime($disp['ultima_lectura'])) : 'Nunca'; ?>
+                                            <br>
+                                            <?php if($disp['ultima_temp']): ?>
+                                            <strong>Temperatura:</strong> <?php echo $disp['ultima_temp']; ?>°C
+                                            <br>
+                                            <?php endif; ?>
+                                            <?php if($disp['ultima_hum']): ?>
+                                            <strong>Humedad:</strong> <?php echo $disp['ultima_hum']; ?>%
+                                            <?php endif; ?>
+                                        </span>
+                                    </span>
+                                </span>
+                            </div>
+                            <?php endif; ?>
+                            
                             <div class="detail-row">
                                 <span class="detail-label"><i class="fas fa-calendar-alt"></i> Instalación</span>
                                 <span class="detail-value"><?php echo $fecha_instalacion; ?></span>
@@ -599,7 +996,7 @@ $dispositivos = $stmt->fetchAll(PDO::FETCH_ASSOC);
                             <a href="editar_dispositivo.php?id=<?php echo $disp['id']; ?>" class="btn-action btn-edit">
                                 <i class="fas fa-edit"></i> Editar
                             </a>
-                            <a href="ver_datos.php?dispositivo_id=<?php echo $disp['id']; ?>" class="btn-action btn-view">
+                            <a href="ver_datos.php?id=<?php echo $disp['id']; ?>" class="btn-action btn-view">
                                 <i class="fas fa-chart-line"></i> Ver Datos
                             </a>
                             <?php if($disp['protocolo'] == 'MQTT'): ?>
@@ -607,6 +1004,18 @@ $dispositivos = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                     <i class="fas fa-satellite-dish"></i> MQTT
                                 </a>
                             <?php endif; ?>
+                            <a href="eliminar_dispositivo.php?id=<?php echo $disp['id']; ?>" 
+                               class="btn-action btn-delete"
+                               onclick="return confirm('¿Estás seguro de eliminar este dispositivo? Esta acción no se puede deshacer.');">
+                                <i class="fas fa-trash"></i> Eliminar
+                            </a>
+                        </div>
+                        
+                        <!-- Debug info (opcional, solo desarrollo) -->
+                        <div class="debug-info">
+                            ID: <?php echo $disp['id']; ?> | 
+                            Código: <?php echo htmlspecialchars($disp['codigo'] ?? 'N/A'); ?> | 
+                            Datos: <?php echo $disp['total_datos']; ?>
                         </div>
                     </div>
                     <?php endforeach; ?>
@@ -615,16 +1024,103 @@ $dispositivos = $stmt->fetchAll(PDO::FETCH_ASSOC);
         </div>
     </div>
 
+    <!-- Modal de instrucciones MQTT -->
+    <div id="mqttInstructionsModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 1000; justify-content: center; align-items: center;">
+        <div style="background: white; border-radius: 15px; padding: 30px; max-width: 600px; width: 90%; max-height: 80vh; overflow-y: auto;">
+            <h3 style="color: #2d3436; margin-bottom: 20px;">
+                <i class="fas fa-info-circle"></i> Instrucciones para conectar ESP32 vía MQTT
+            </h3>
+            
+            <h4 style="color: #6c5ce7; margin-top: 20px;">1. Configuración del ESP32</h4>
+            <pre style="background: #f8f9fa; padding: 15px; border-radius: 8px; font-size: 0.9rem;">
+// Configuración básica en Arduino IDE
+#include &lt;WiFi.h&gt;
+#include &lt;PubSubClient.h&gt;
+
+const char* ssid = "TU_WIFI";
+const char* password = "TU_PASSWORD";
+const char* mqtt_server = "IP_DEL_SERVIDOR"; // IP de tu servidor
+
+WiFiClient espClient;
+PubSubClient client(espClient);
+
+void setup() {
+    WiFi.begin(ssid, password);
+    client.setServer(mqtt_server, 1883);
+}</pre>
+            
+            <h4 style="color: #6c5ce7; margin-top: 20px;">2. Enviar datos de sensor</h4>
+            <pre style="background: #f8f9fa; padding: 15px; border-radius: 8px; font-size: 0.9rem;">
+// Publicar datos cada 30 segundos
+void loop() {
+    float temperatura = leerTemperatura();
+    float humedad = leerHumedad();
+    
+    String json = "{";
+    json += "\"dispositivo\":\"ESP32_001\",";
+    json += "\"temperatura\":" + String(temperatura) + ",";
+    json += "\"humedad\":" + String(humedad);
+    json += "}";
+    
+    client.publish("esp32/sensor/data", json.c_str());
+    delay(30000);
+}</pre>
+            
+            <h4 style="color: #6c5ce7; margin-top: 20px;">3. Prueba manual desde terminal</h4>
+            <code style="display: block; background: #2d3436; color: white; padding: 15px; border-radius: 8px; font-family: monospace; margin-top: 10px;">
+                mosquitto_pub -h localhost -t "esp32/sensor/data" -m '{"dispositivo":"TEST_001","temperatura":25.5,"humedad":60}'
+            </code>
+            
+            <h4 style="color: #6c5ce7; margin-top: 20px;">4. Verificar conexión</h4>
+            <ul style="color: #2d3436; padding-left: 20px; margin-top: 10px;">
+                <li>Ver logs: <code>tail -f /var/www/html/iot-system/mqtt.log</code></li>
+                <li>Ver datos en BD: <code>SELECT * FROM mqtt_data ORDER BY id DESC LIMIT 5;</code></li>
+                <li>Dashboard MQTT: <a href="dashboard_mqtt.php">dashboard_mqtt.php</a></li>
+            </ul>
+            
+            <div style="text-align: right; margin-top: 30px;">
+                <button onclick="cerrarModal()" style="padding: 10px 20px; background: #6c5ce7; color: white; border: none; border-radius: 8px; cursor: pointer;">
+                    Cerrar
+                </button>
+            </div>
+        </div>
+    </div>
+
     <script>
+        // Variables globales para filtros
+        let dispositivosOriginales = [];
+        
+        // Inicializar al cargar la página
+        document.addEventListener('DOMContentLoaded', function() {
+            // Guardar referencia original de dispositivos
+            dispositivosOriginales = Array.from(document.querySelectorAll('.device-card'));
+            
+            // Ordenar tarjetas por animación
+            const cards = document.querySelectorAll('.device-card');
+            cards.forEach((card, index) => {
+                card.style.animationDelay = `${index * 0.1}s`;
+            });
+            
+            // Mostrar info de debug en consola
+            console.log("=== INFORMACIÓN DE DISPOSITIVOS ===");
+            cards.forEach(card => {
+                const id = card.getAttribute('data-id');
+                const debug = card.getAttribute('data-debug');
+                console.log(`Dispositivo ${id}: ${debug}`);
+            });
+            console.log("==================================");
+            
+            // Actualizar estado MQTT cada 60 segundos
+            setInterval(actualizarEstadoMQTT, 60000);
+        });
+        
         function filterDevices() {
             const typeFilter = document.getElementById('filterType').value.toLowerCase();
             const protocolFilter = document.getElementById('filterProtocol').value;
             const statusFilter = document.getElementById('filterStatus').value;
             const searchTerm = document.getElementById('searchDevice').value.toLowerCase();
             
-            const deviceCards = document.querySelectorAll('.device-card');
-            
-            deviceCards.forEach(card => {
+            dispositivosOriginales.forEach(card => {
                 const type = card.getAttribute('data-type');
                 const protocol = card.getAttribute('data-protocol');
                 const status = card.getAttribute('data-status');
@@ -653,18 +1149,115 @@ $dispositivos = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     show = false;
                 }
                 
-                // Mostrar/ocultar tarjeta
-                card.style.display = show ? 'block' : 'none';
+                // Mostrar/ocultar tarjeta con animación
+                if (show) {
+                    card.style.display = 'block';
+                    setTimeout(() => {
+                        card.style.opacity = '1';
+                        card.style.transform = 'translateY(0)';
+                    }, 10);
+                } else {
+                    card.style.opacity = '0';
+                    card.style.transform = 'translateY(20px)';
+                    setTimeout(() => {
+                        card.style.display = 'none';
+                    }, 300);
+                }
             });
         }
         
-        // Ordenar tarjetas por animación
-        document.addEventListener('DOMContentLoaded', function() {
-            const cards = document.querySelectorAll('.device-card');
-            cards.forEach((card, index) => {
-                card.style.animationDelay = `${index * 0.1}s`;
+        function filtrarSoloMQTT() {
+            const mqttOnly = document.getElementById('filterMQTT').checked;
+            
+            dispositivosOriginales.forEach(card => {
+                const isMqtt = card.getAttribute('data-mqtt') === '1';
+                
+                if (mqttOnly && !isMqtt) {
+                    card.style.opacity = '0';
+                    card.style.transform = 'translateY(20px)';
+                    setTimeout(() => {
+                        card.style.display = 'none';
+                    }, 300);
+                } else if (!mqttOnly && card.style.display === 'none') {
+                    card.style.display = 'block';
+                    setTimeout(() => {
+                        card.style.opacity = '1';
+                        card.style.transform = 'translateY(0)';
+                    }, 10);
+                }
             });
+        }
+        
+        function testMQTT() {
+            fetch('../api/test-mqtt.php')
+                .then(response => response.json())
+                .then(data => {
+                    if(data.success) {
+                        alert('✅ Conexión MQTT funcionando correctamente');
+                        // Recargar dispositivos MQTT
+                        recargarEstadoMQTT();
+                    } else {
+                        alert('❌ Error en conexión MQTT: ' + data.message);
+                    }
+                })
+                .catch(error => {
+                    alert('Error al probar conexión MQTT');
+                });
+        }
+        
+        function mostrarInstruccionesMQTT() {
+            document.getElementById('mqttInstructionsModal').style.display = 'flex';
+        }
+        
+        function cerrarModal() {
+            document.getElementById('mqttInstructionsModal').style.display = 'none';
+        }
+        
+        function recargarEstadoMQTT() {
+            // Aquí puedes implementar una recarga AJAX de los datos MQTT
+            // Por ahora, solo recargamos la página
+            window.location.reload();
+        }
+        
+        function actualizarEstadoMQTT() {
+            // Función para actualizar el estado de dispositivos MQTT vía AJAX
+            const dispositivosMQTT = Array.from(document.querySelectorAll('.device-card[data-mqtt="1"]'));
+            
+            if(dispositivosMQTT.length > 0) {
+                // Solo hacer ping para mantener sesión activa
+                fetch('../api/ping-mqtt.php')
+                    .then(response => response.json())
+                    .then(data => {
+                        if(data.online) {
+                            console.log('✅ Servidor MQTT en línea');
+                        }
+                    })
+                    .catch(error => {
+                        console.log('⚠️ Error al verificar MQTT');
+                    });
+            }
+        }
+        
+        // Cerrar modal con ESC
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                cerrarModal();
+            }
         });
+        
+        // Cerrar modal haciendo clic fuera
+        document.getElementById('mqttInstructionsModal').addEventListener('click', function(event) {
+            if (event.target === this) {
+                cerrarModal();
+            }
+        });
+        
+        // Auto-refresh cada 5 minutos (opcional)
+        setTimeout(function() {
+            if(confirm('¿Deseas actualizar la lista de dispositivos?')) {
+                window.location.reload();
+            }
+        }, 300000); // 5 minutos
     </script>
 </body>
 </html>

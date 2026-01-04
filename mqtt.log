@@ -1,0 +1,130 @@
+nohup: no se tendrá en cuenta la entrada
+[2026-01-03 23:00:24] ========================================
+[2026-01-03 23:00:24] Iniciando suscriptor MQTT IoT System
+[2026-01-03 23:00:24] ========================================
+
+PHP Warning:  Undefined global variable $pdo in /var/www/html/iot-system/core/mqtt-handler.php on line 53
+[2026-01-03 23:00:24] Configuración cargada:
+[2026-01-03 23:00:24] - Broker: localhost:1883
+[2026-01-03 23:00:24] - Cliente ID: iot-system-web
+[2026-01-03 23:00:24] - Topics:
+[2026-01-03 23:00:24]   * sensor_data: esp32/sensor/data
+[2026-01-03 23:00:24]   * sensor_status: esp32/sensor/status
+[2026-01-03 23:00:24]   * control: esp32/control
+
+[2026-01-03 23:00:24] Conectando al broker MQTT...
+[2026-01-03 23:00:24] Conectado al broker MQTT en localhost:1883
+[2026-01-03 23:00:24] Suscrito al topic: esp32/sensor/data
+[2026-01-03 23:00:24] Suscrito al topic: esp32/sensor/status
+
+[2026-01-03 23:00:24] ✅ SISTEMA LISTO
+[2026-01-03 23:00:24] Suscrito a esp32/sensor/data
+[2026-01-03 23:00:24] Suscrito a esp32/sensor/status
+[2026-01-03 23:00:24] Escuchando mensajes MQTT...
+[2026-01-03 23:00:24] Presiona Ctrl+C para salir
+[2026-01-03 23:00:24] ==================================================
+
+
+[2026-01-03 23:00:32] --------------------------------------------------
+[2026-01-03 23:00:32] 📨 MENSAJE RECIBIDO
+[2026-01-03 23:00:32] Topic: esp32/sensor/data
+[2026-01-03 23:00:32] Mensaje: {"dispositivo":"ESP32_TVROPI","temperatura":23.90,"humedad":35.20,"timestamp":"00:13:30","voltaje":3.30}
+[2026-01-03 23:00:32] --------------------------------------------------
+[2026-01-03 23:00:32] Procesando datos de: ESP32_TVROPI
+[2026-01-03 23:00:32] Actualizando dispositivo: ESP32_TVROPI
+
+[2026-01-03 23:01:01] --------------------------------------------------
+[2026-01-03 23:01:01] 📨 MENSAJE RECIBIDO
+[2026-01-03 23:01:01] Topic: esp32/sensor/data
+[2026-01-03 23:01:01] Mensaje: {"dispositivo":"ESP32_TVROPI","temperatura":23.90,"humedad":35.00,"timestamp":"00:14:00","voltaje":3.30}
+[2026-01-03 23:01:01] --------------------------------------------------
+[2026-01-03 23:01:01] Procesando datos de: ESP32_TVROPI
+[2026-01-03 23:01:01] Actualizando dispositivo: ESP32_TVROPI
+
+[2026-01-03 23:01:31] --------------------------------------------------
+[2026-01-03 23:01:31] 📨 MENSAJE RECIBIDO
+[2026-01-03 23:01:31] Topic: esp32/sensor/data
+[2026-01-03 23:01:31] Mensaje: {"dispositivo":"ESP32_TVROPI","temperatura":23.90,"humedad":34.60,"timestamp":"00:14:30","voltaje":3.30}
+[2026-01-03 23:01:31] --------------------------------------------------
+[2026-01-03 23:01:31] Procesando datos de: ESP32_TVROPI
+[2026-01-03 23:01:31] Actualizando dispositivo: ESP32_TVROPI
+
+[2026-01-03 23:02:01] --------------------------------------------------
+[2026-01-03 23:02:01] 📨 MENSAJE RECIBIDO
+[2026-01-03 23:02:01] Topic: esp32/sensor/data
+[2026-01-03 23:02:01] Mensaje: {"dispositivo":"ESP32_TVROPI","temperatura":24.00,"humedad":36.00,"timestamp":"00:15:00","voltaje":3.30}
+[2026-01-03 23:02:01] --------------------------------------------------
+[2026-01-03 23:02:01] Procesando datos de: ESP32_TVROPI
+[2026-01-03 23:02:01] Actualizando dispositivo: ESP32_TVROPI
+
+[2026-01-03 23:02:31] --------------------------------------------------
+[2026-01-03 23:02:31] 📨 MENSAJE RECIBIDO
+[2026-01-03 23:02:31] Topic: esp32/sensor/data
+[2026-01-03 23:02:31] Mensaje: {"dispositivo":"ESP32_TVROPI","temperatura":24.00,"humedad":35.10,"timestamp":"00:15:30","voltaje":3.30}
+[2026-01-03 23:02:31] --------------------------------------------------
+[2026-01-03 23:02:31] Procesando datos de: ESP32_TVROPI
+[2026-01-03 23:02:31] Actualizando dispositivo: ESP32_TVROPI
+
+[2026-01-03 23:03:01] --------------------------------------------------
+[2026-01-03 23:03:01] 📨 MENSAJE RECIBIDO
+[2026-01-03 23:03:01] Topic: esp32/sensor/data
+[2026-01-03 23:03:01] Mensaje: {"dispositivo":"ESP32_TVROPI","temperatura":24.00,"humedad":35.00,"timestamp":"00:16:00","voltaje":3.30}
+[2026-01-03 23:03:01] --------------------------------------------------
+[2026-01-03 23:03:01] Procesando datos de: ESP32_TVROPI
+[2026-01-03 23:03:01] Actualizando dispositivo: ESP32_TVROPI
+
+[2026-01-03 23:03:31] --------------------------------------------------
+[2026-01-03 23:03:31] 📨 MENSAJE RECIBIDO
+[2026-01-03 23:03:31] Topic: esp32/sensor/data
+[2026-01-03 23:03:31] Mensaje: {"dispositivo":"ESP32_TVROPI","temperatura":23.90,"humedad":35.20,"timestamp":"00:16:30","voltaje":3.30}
+[2026-01-03 23:03:31] --------------------------------------------------
+[2026-01-03 23:03:31] Procesando datos de: ESP32_TVROPI
+[2026-01-03 23:03:31] Actualizando dispositivo: ESP32_TVROPI
+
+[2026-01-03 23:04:02] --------------------------------------------------
+[2026-01-03 23:04:02] 📨 MENSAJE RECIBIDO
+[2026-01-03 23:04:02] Topic: esp32/sensor/data
+[2026-01-03 23:04:02] Mensaje: {"dispositivo":"ESP32_TVROPI","temperatura":23.90,"humedad":34.70,"timestamp":"00:17:00","voltaje":3.30}
+[2026-01-03 23:04:02] --------------------------------------------------
+[2026-01-03 23:04:02] Procesando datos de: ESP32_TVROPI
+[2026-01-03 23:04:02] Actualizando dispositivo: ESP32_TVROPI
+
+[2026-01-03 23:04:31] --------------------------------------------------
+[2026-01-03 23:04:31] 📨 MENSAJE RECIBIDO
+[2026-01-03 23:04:31] Topic: esp32/sensor/data
+[2026-01-03 23:04:31] Mensaje: {"dispositivo":"ESP32_TVROPI","temperatura":23.90,"humedad":35.10,"timestamp":"00:17:30","voltaje":3.30}
+[2026-01-03 23:04:31] --------------------------------------------------
+[2026-01-03 23:04:31] Procesando datos de: ESP32_TVROPI
+[2026-01-03 23:04:31] Actualizando dispositivo: ESP32_TVROPI
+
+[2026-01-03 23:05:01] --------------------------------------------------
+[2026-01-03 23:05:01] 📨 MENSAJE RECIBIDO
+[2026-01-03 23:05:01] Topic: esp32/sensor/data
+[2026-01-03 23:05:01] Mensaje: {"dispositivo":"ESP32_TVROPI","temperatura":23.80,"humedad":35.20,"timestamp":"00:18:00","voltaje":3.30}
+[2026-01-03 23:05:01] --------------------------------------------------
+[2026-01-03 23:05:01] Procesando datos de: ESP32_TVROPI
+[2026-01-03 23:05:01] Actualizando dispositivo: ESP32_TVROPI
+
+[2026-01-03 23:05:32] --------------------------------------------------
+[2026-01-03 23:05:32] 📨 MENSAJE RECIBIDO
+[2026-01-03 23:05:32] Topic: esp32/sensor/data
+[2026-01-03 23:05:32] Mensaje: {"dispositivo":"ESP32_TVROPI","temperatura":23.80,"humedad":35.00,"timestamp":"00:18:30","voltaje":3.30}
+[2026-01-03 23:05:32] --------------------------------------------------
+[2026-01-03 23:05:32] Procesando datos de: ESP32_TVROPI
+[2026-01-03 23:05:32] Actualizando dispositivo: ESP32_TVROPI
+
+[2026-01-03 23:06:02] --------------------------------------------------
+[2026-01-03 23:06:02] 📨 MENSAJE RECIBIDO
+[2026-01-03 23:06:02] Topic: esp32/sensor/data
+[2026-01-03 23:06:02] Mensaje: {"dispositivo":"ESP32_TVROPI","temperatura":23.80,"humedad":34.50,"timestamp":"00:19:00","voltaje":3.30}
+[2026-01-03 23:06:02] --------------------------------------------------
+[2026-01-03 23:06:02] Procesando datos de: ESP32_TVROPI
+[2026-01-03 23:06:02] Actualizando dispositivo: ESP32_TVROPI
+
+[2026-01-03 23:06:32] --------------------------------------------------
+[2026-01-03 23:06:32] 📨 MENSAJE RECIBIDO
+[2026-01-03 23:06:32] Topic: esp32/sensor/data
+[2026-01-03 23:06:32] Mensaje: {"dispositivo":"ESP32_TVROPI","temperatura":23.80,"humedad":34.50,"timestamp":"00:19:30","voltaje":3.30}
+[2026-01-03 23:06:32] --------------------------------------------------
+[2026-01-03 23:06:32] Procesando datos de: ESP32_TVROPI
+[2026-01-03 23:06:32] Actualizando dispositivo: ESP32_TVROPI

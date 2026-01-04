@@ -586,15 +586,7 @@ try {
             
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 20px;">
                 <!-- Registrar Nuevo Dispositivo -->
-                <a href="registrar_dispositivo.php" class="action-card" style="background: linear-gradient(135deg, #10b981, #059669);">
-                    <div class="action-icon">
-                        <i class="fas fa-plus-circle"></i>
-                    </div>
-                    <div class="action-content">
-                        <h3>Registrar Dispositivo</h3>
-                        <p>Agregar nuevo dispositivo IoT al sistema</p>
-                    </div>
-                </a>
+                
                 
                 <!-- Gestionar Clientes -->
                 <a href="gestionar_clientes.php" class="action-card" style="background: linear-gradient(135deg, #3b82f6, #1d4ed8);">

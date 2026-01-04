@@ -1,0 +1,7 @@
+[2026-01-04 04:34:02] [INFO] Inicializando MQTT Handler...
+[2026-01-04 04:34:02] [ERROR] ERROR FATAL: Uncaught Error: Call to undefined method MqttHandler::getConfig() in /var/www/html/iot-system/mqtt/subscriber.php:110
+Stack trace:
+#0 /var/www/html/iot-system/mqtt/subscriber.php(309): main()
+#1 {main}
+  thrown
+[2026-01-04 04:34:02] [ERROR] En: /var/www/html/iot-system/mqtt/subscriber.php línea 110
