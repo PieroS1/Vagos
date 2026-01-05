@@ -7484,3 +7484,2293 @@ PHP Warning:  Undefined global variable $pdo in /var/www/html/iot-system/core/mq
 [2026-01-04 16:05:21] --------------------------------------------------
 [2026-01-04 16:05:21] Procesando datos de: ESP32_KHI9GU
 [2026-01-04 16:05:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:05:47] --------------------------------------------------
+[2026-01-04 16:05:47] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:05:47] Topic: esp32/sensor/data
+[2026-01-04 16:05:47] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":35.00,"timestamp":"00:48:02","voltaje":3.30}
+[2026-01-04 16:05:47] --------------------------------------------------
+[2026-01-04 16:05:47] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:05:47] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:05:50] --------------------------------------------------
+[2026-01-04 16:05:50] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:05:50] Topic: esp32/sensor/data
+[2026-01-04 16:05:50] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.40,"humedad":34.30,"timestamp":"01:11:01","voltaje":3.30}
+[2026-01-04 16:05:50] --------------------------------------------------
+[2026-01-04 16:05:50] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:05:50] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:06:17] --------------------------------------------------
+[2026-01-04 16:06:17] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:06:17] Topic: esp32/sensor/data
+[2026-01-04 16:06:17] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":34.00,"timestamp":"00:48:32","voltaje":3.30}
+[2026-01-04 16:06:17] --------------------------------------------------
+[2026-01-04 16:06:17] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:06:17] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:06:21] --------------------------------------------------
+[2026-01-04 16:06:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:06:21] Topic: esp32/sensor/data
+[2026-01-04 16:06:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.40,"humedad":33.90,"timestamp":"01:11:31","voltaje":3.30}
+[2026-01-04 16:06:21] --------------------------------------------------
+[2026-01-04 16:06:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:06:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:06:47] --------------------------------------------------
+[2026-01-04 16:06:47] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:06:47] Topic: esp32/sensor/data
+[2026-01-04 16:06:47] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":35.00,"timestamp":"00:49:02","voltaje":3.30}
+[2026-01-04 16:06:47] --------------------------------------------------
+[2026-01-04 16:06:47] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:06:47] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:06:51] --------------------------------------------------
+[2026-01-04 16:06:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:06:51] Topic: esp32/sensor/data
+[2026-01-04 16:06:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.30,"humedad":34.80,"timestamp":"01:12:01","voltaje":3.30}
+[2026-01-04 16:06:51] --------------------------------------------------
+[2026-01-04 16:06:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:06:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:07:17] --------------------------------------------------
+[2026-01-04 16:07:17] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:07:17] Topic: esp32/sensor/data
+[2026-01-04 16:07:17] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":35.00,"timestamp":"00:49:32","voltaje":3.30}
+[2026-01-04 16:07:17] --------------------------------------------------
+[2026-01-04 16:07:17] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:07:17] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:07:20] --------------------------------------------------
+[2026-01-04 16:07:20] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:07:20] Topic: esp32/sensor/data
+[2026-01-04 16:07:20] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.40,"humedad":34.30,"timestamp":"01:12:31","voltaje":3.30}
+[2026-01-04 16:07:20] --------------------------------------------------
+[2026-01-04 16:07:20] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:07:20] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:07:47] --------------------------------------------------
+[2026-01-04 16:07:47] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:07:47] Topic: esp32/sensor/data
+[2026-01-04 16:07:47] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":35.00,"timestamp":"00:50:02","voltaje":3.30}
+[2026-01-04 16:07:47] --------------------------------------------------
+[2026-01-04 16:07:47] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:07:47] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:07:51] --------------------------------------------------
+[2026-01-04 16:07:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:07:51] Topic: esp32/sensor/data
+[2026-01-04 16:07:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.50,"humedad":34.20,"timestamp":"01:13:01","voltaje":3.30}
+[2026-01-04 16:07:51] --------------------------------------------------
+[2026-01-04 16:07:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:07:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:08:18] --------------------------------------------------
+[2026-01-04 16:08:18] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:08:18] Topic: esp32/sensor/data
+[2026-01-04 16:08:18] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":35.00,"timestamp":"00:50:32","voltaje":3.30}
+[2026-01-04 16:08:18] --------------------------------------------------
+[2026-01-04 16:08:18] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:08:18] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:08:21] --------------------------------------------------
+[2026-01-04 16:08:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:08:21] Topic: esp32/sensor/data
+[2026-01-04 16:08:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.40,"humedad":33.80,"timestamp":"01:13:31","voltaje":3.30}
+[2026-01-04 16:08:21] --------------------------------------------------
+[2026-01-04 16:08:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:08:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:08:48] --------------------------------------------------
+[2026-01-04 16:08:48] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:08:48] Topic: esp32/sensor/data
+[2026-01-04 16:08:48] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":34.00,"timestamp":"00:51:02","voltaje":3.30}
+[2026-01-04 16:08:48] --------------------------------------------------
+[2026-01-04 16:08:48] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:08:48] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:08:51] --------------------------------------------------
+[2026-01-04 16:08:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:08:51] Topic: esp32/sensor/data
+[2026-01-04 16:08:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.40,"humedad":33.80,"timestamp":"01:14:01","voltaje":3.30}
+[2026-01-04 16:08:51] --------------------------------------------------
+[2026-01-04 16:08:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:08:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:09:18] --------------------------------------------------
+[2026-01-04 16:09:18] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:09:18] Topic: esp32/sensor/data
+[2026-01-04 16:09:18] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":34.00,"timestamp":"00:51:32","voltaje":3.30}
+[2026-01-04 16:09:18] --------------------------------------------------
+[2026-01-04 16:09:18] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:09:18] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:09:21] --------------------------------------------------
+[2026-01-04 16:09:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:09:21] Topic: esp32/sensor/data
+[2026-01-04 16:09:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.40,"humedad":33.70,"timestamp":"01:14:31","voltaje":3.30}
+[2026-01-04 16:09:21] --------------------------------------------------
+[2026-01-04 16:09:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:09:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:09:48] --------------------------------------------------
+[2026-01-04 16:09:48] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:09:48] Topic: esp32/sensor/data
+[2026-01-04 16:09:48] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.50,"humedad":34.00,"timestamp":"00:52:02","voltaje":3.30}
+[2026-01-04 16:09:48] --------------------------------------------------
+[2026-01-04 16:09:48] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:09:48] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:09:51] --------------------------------------------------
+[2026-01-04 16:09:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:09:51] Topic: esp32/sensor/data
+[2026-01-04 16:09:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.30,"humedad":34.60,"timestamp":"01:15:01","voltaje":3.30}
+[2026-01-04 16:09:51] --------------------------------------------------
+[2026-01-04 16:09:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:09:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:10:18] --------------------------------------------------
+[2026-01-04 16:10:18] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:10:18] Topic: esp32/sensor/data
+[2026-01-04 16:10:18] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.30,"humedad":34.00,"timestamp":"00:52:32","voltaje":3.30}
+[2026-01-04 16:10:18] --------------------------------------------------
+[2026-01-04 16:10:18] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:10:18] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:10:21] --------------------------------------------------
+[2026-01-04 16:10:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:10:21] Topic: esp32/sensor/data
+[2026-01-04 16:10:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.20,"humedad":34.00,"timestamp":"01:15:31","voltaje":3.30}
+[2026-01-04 16:10:21] --------------------------------------------------
+[2026-01-04 16:10:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:10:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:10:48] --------------------------------------------------
+[2026-01-04 16:10:48] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:10:48] Topic: esp32/sensor/data
+[2026-01-04 16:10:48] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.20,"humedad":34.00,"timestamp":"00:53:02","voltaje":3.30}
+[2026-01-04 16:10:48] --------------------------------------------------
+[2026-01-04 16:10:48] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:10:48] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:10:51] --------------------------------------------------
+[2026-01-04 16:10:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:10:51] Topic: esp32/sensor/data
+[2026-01-04 16:10:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.20,"humedad":34.00,"timestamp":"01:16:01","voltaje":3.30}
+[2026-01-04 16:10:51] --------------------------------------------------
+[2026-01-04 16:10:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:10:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:11:18] --------------------------------------------------
+[2026-01-04 16:11:18] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:11:18] Topic: esp32/sensor/data
+[2026-01-04 16:11:18] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.30,"humedad":34.00,"timestamp":"00:53:32","voltaje":3.30}
+[2026-01-04 16:11:18] --------------------------------------------------
+[2026-01-04 16:11:18] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:11:18] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:11:21] --------------------------------------------------
+[2026-01-04 16:11:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:11:21] Topic: esp32/sensor/data
+[2026-01-04 16:11:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.20,"humedad":34.20,"timestamp":"01:16:31","voltaje":3.30}
+[2026-01-04 16:11:21] --------------------------------------------------
+[2026-01-04 16:11:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:11:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:11:48] --------------------------------------------------
+[2026-01-04 16:11:48] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:11:48] Topic: esp32/sensor/data
+[2026-01-04 16:11:48] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":34.00,"timestamp":"00:54:02","voltaje":3.30}
+[2026-01-04 16:11:48] --------------------------------------------------
+[2026-01-04 16:11:48] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:11:48] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:11:51] --------------------------------------------------
+[2026-01-04 16:11:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:11:51] Topic: esp32/sensor/data
+[2026-01-04 16:11:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.30,"humedad":34.00,"timestamp":"01:17:01","voltaje":3.30}
+[2026-01-04 16:11:51] --------------------------------------------------
+[2026-01-04 16:11:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:11:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:12:18] --------------------------------------------------
+[2026-01-04 16:12:18] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:12:18] Topic: esp32/sensor/data
+[2026-01-04 16:12:18] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":34.00,"timestamp":"00:54:32","voltaje":3.30}
+[2026-01-04 16:12:18] --------------------------------------------------
+[2026-01-04 16:12:18] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:12:18] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:12:21] --------------------------------------------------
+[2026-01-04 16:12:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:12:21] Topic: esp32/sensor/data
+[2026-01-04 16:12:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.30,"humedad":33.90,"timestamp":"01:17:31","voltaje":3.30}
+[2026-01-04 16:12:21] --------------------------------------------------
+[2026-01-04 16:12:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:12:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:12:48] --------------------------------------------------
+[2026-01-04 16:12:48] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:12:48] Topic: esp32/sensor/data
+[2026-01-04 16:12:48] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.30,"humedad":34.00,"timestamp":"00:55:02","voltaje":3.30}
+[2026-01-04 16:12:48] --------------------------------------------------
+[2026-01-04 16:12:48] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:12:48] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:12:51] --------------------------------------------------
+[2026-01-04 16:12:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:12:51] Topic: esp32/sensor/data
+[2026-01-04 16:12:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.30,"humedad":33.90,"timestamp":"01:18:01","voltaje":3.30}
+[2026-01-04 16:12:51] --------------------------------------------------
+[2026-01-04 16:12:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:12:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:13:18] --------------------------------------------------
+[2026-01-04 16:13:18] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:13:18] Topic: esp32/sensor/data
+[2026-01-04 16:13:18] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.20,"humedad":34.00,"timestamp":"00:55:32","voltaje":3.30}
+[2026-01-04 16:13:18] --------------------------------------------------
+[2026-01-04 16:13:18] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:13:18] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:13:21] --------------------------------------------------
+[2026-01-04 16:13:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:13:21] Topic: esp32/sensor/data
+[2026-01-04 16:13:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.30,"humedad":34.00,"timestamp":"01:18:31","voltaje":3.30}
+[2026-01-04 16:13:21] --------------------------------------------------
+[2026-01-04 16:13:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:13:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:13:48] --------------------------------------------------
+[2026-01-04 16:13:48] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:13:48] Topic: esp32/sensor/data
+[2026-01-04 16:13:48] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.20,"humedad":34.00,"timestamp":"00:56:02","voltaje":3.30}
+[2026-01-04 16:13:48] --------------------------------------------------
+[2026-01-04 16:13:48] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:13:48] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:13:51] --------------------------------------------------
+[2026-01-04 16:13:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:13:51] Topic: esp32/sensor/data
+[2026-01-04 16:13:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.40,"humedad":33.90,"timestamp":"01:19:01","voltaje":3.30}
+[2026-01-04 16:13:51] --------------------------------------------------
+[2026-01-04 16:13:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:13:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:14:18] --------------------------------------------------
+[2026-01-04 16:14:18] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:14:18] Topic: esp32/sensor/data
+[2026-01-04 16:14:18] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.30,"humedad":34.00,"timestamp":"00:56:33","voltaje":3.30}
+[2026-01-04 16:14:18] --------------------------------------------------
+[2026-01-04 16:14:18] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:14:18] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:14:21] --------------------------------------------------
+[2026-01-04 16:14:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:14:21] Topic: esp32/sensor/data
+[2026-01-04 16:14:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.50,"humedad":33.60,"timestamp":"01:19:31","voltaje":3.30}
+[2026-01-04 16:14:21] --------------------------------------------------
+[2026-01-04 16:14:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:14:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:14:48] --------------------------------------------------
+[2026-01-04 16:14:48] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:14:48] Topic: esp32/sensor/data
+[2026-01-04 16:14:48] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.30,"humedad":34.00,"timestamp":"00:57:03","voltaje":3.30}
+[2026-01-04 16:14:48] --------------------------------------------------
+[2026-01-04 16:14:48] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:14:48] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:14:51] --------------------------------------------------
+[2026-01-04 16:14:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:14:51] Topic: esp32/sensor/data
+[2026-01-04 16:14:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.50,"humedad":33.70,"timestamp":"01:20:01","voltaje":3.30}
+[2026-01-04 16:14:51] --------------------------------------------------
+[2026-01-04 16:14:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:14:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:15:18] --------------------------------------------------
+[2026-01-04 16:15:18] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:15:18] Topic: esp32/sensor/data
+[2026-01-04 16:15:18] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.30,"humedad":34.00,"timestamp":"00:57:33","voltaje":3.30}
+[2026-01-04 16:15:18] --------------------------------------------------
+[2026-01-04 16:15:18] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:15:18] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:15:21] --------------------------------------------------
+[2026-01-04 16:15:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:15:21] Topic: esp32/sensor/data
+[2026-01-04 16:15:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.60,"humedad":33.70,"timestamp":"01:20:31","voltaje":3.30}
+[2026-01-04 16:15:21] --------------------------------------------------
+[2026-01-04 16:15:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:15:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:15:48] --------------------------------------------------
+[2026-01-04 16:15:48] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:15:48] Topic: esp32/sensor/data
+[2026-01-04 16:15:48] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.20,"humedad":34.00,"timestamp":"00:58:03","voltaje":3.30}
+[2026-01-04 16:15:48] --------------------------------------------------
+[2026-01-04 16:15:48] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:15:48] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:15:51] --------------------------------------------------
+[2026-01-04 16:15:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:15:51] Topic: esp32/sensor/data
+[2026-01-04 16:15:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.50,"humedad":34.50,"timestamp":"01:21:01","voltaje":3.30}
+[2026-01-04 16:15:51] --------------------------------------------------
+[2026-01-04 16:15:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:15:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:16:18] --------------------------------------------------
+[2026-01-04 16:16:18] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:16:18] Topic: esp32/sensor/data
+[2026-01-04 16:16:18] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.20,"humedad":34.00,"timestamp":"00:58:33","voltaje":3.30}
+[2026-01-04 16:16:18] --------------------------------------------------
+[2026-01-04 16:16:18] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:16:18] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:16:21] --------------------------------------------------
+[2026-01-04 16:16:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:16:21] Topic: esp32/sensor/data
+[2026-01-04 16:16:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.50,"humedad":33.60,"timestamp":"01:21:31","voltaje":3.30}
+[2026-01-04 16:16:21] --------------------------------------------------
+[2026-01-04 16:16:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:16:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:16:48] --------------------------------------------------
+[2026-01-04 16:16:48] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:16:48] Topic: esp32/sensor/data
+[2026-01-04 16:16:48] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.50,"humedad":34.00,"timestamp":"00:59:03","voltaje":3.30}
+[2026-01-04 16:16:48] --------------------------------------------------
+[2026-01-04 16:16:48] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:16:48] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:16:51] --------------------------------------------------
+[2026-01-04 16:16:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:16:51] Topic: esp32/sensor/data
+[2026-01-04 16:16:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.50,"humedad":34.00,"timestamp":"01:22:01","voltaje":3.30}
+[2026-01-04 16:16:51] --------------------------------------------------
+[2026-01-04 16:16:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:16:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:17:18] --------------------------------------------------
+[2026-01-04 16:17:18] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:17:18] Topic: esp32/sensor/data
+[2026-01-04 16:17:18] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.30,"humedad":34.00,"timestamp":"00:59:33","voltaje":3.30}
+[2026-01-04 16:17:18] --------------------------------------------------
+[2026-01-04 16:17:18] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:17:18] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:17:21] --------------------------------------------------
+[2026-01-04 16:17:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:17:21] Topic: esp32/sensor/data
+[2026-01-04 16:17:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.50,"humedad":33.70,"timestamp":"01:22:31","voltaje":3.30}
+[2026-01-04 16:17:21] --------------------------------------------------
+[2026-01-04 16:17:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:17:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:17:48] --------------------------------------------------
+[2026-01-04 16:17:48] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:17:48] Topic: esp32/sensor/data
+[2026-01-04 16:17:48] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.50,"humedad":34.00,"timestamp":"01:00:03","voltaje":3.30}
+[2026-01-04 16:17:48] --------------------------------------------------
+[2026-01-04 16:17:48] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:17:48] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:17:51] --------------------------------------------------
+[2026-01-04 16:17:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:17:51] Topic: esp32/sensor/data
+[2026-01-04 16:17:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.40,"humedad":34.00,"timestamp":"01:23:01","voltaje":3.30}
+[2026-01-04 16:17:51] --------------------------------------------------
+[2026-01-04 16:17:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:17:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:18:18] --------------------------------------------------
+[2026-01-04 16:18:18] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:18:18] Topic: esp32/sensor/data
+[2026-01-04 16:18:18] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":34.00,"timestamp":"01:00:33","voltaje":3.30}
+[2026-01-04 16:18:18] --------------------------------------------------
+[2026-01-04 16:18:18] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:18:18] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:18:21] --------------------------------------------------
+[2026-01-04 16:18:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:18:21] Topic: esp32/sensor/data
+[2026-01-04 16:18:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.40,"humedad":33.70,"timestamp":"01:23:31","voltaje":3.30}
+[2026-01-04 16:18:21] --------------------------------------------------
+[2026-01-04 16:18:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:18:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:18:48] --------------------------------------------------
+[2026-01-04 16:18:48] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:18:48] Topic: esp32/sensor/data
+[2026-01-04 16:18:48] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":34.00,"timestamp":"01:01:03","voltaje":3.30}
+[2026-01-04 16:18:48] --------------------------------------------------
+[2026-01-04 16:18:48] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:18:48] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:18:51] --------------------------------------------------
+[2026-01-04 16:18:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:18:51] Topic: esp32/sensor/data
+[2026-01-04 16:18:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.40,"humedad":33.60,"timestamp":"01:24:01","voltaje":3.30}
+[2026-01-04 16:18:51] --------------------------------------------------
+[2026-01-04 16:18:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:18:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:19:18] --------------------------------------------------
+[2026-01-04 16:19:18] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:19:18] Topic: esp32/sensor/data
+[2026-01-04 16:19:18] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":34.00,"timestamp":"01:01:33","voltaje":3.30}
+[2026-01-04 16:19:18] --------------------------------------------------
+[2026-01-04 16:19:18] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:19:18] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:19:21] --------------------------------------------------
+[2026-01-04 16:19:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:19:21] Topic: esp32/sensor/data
+[2026-01-04 16:19:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.40,"humedad":34.00,"timestamp":"01:24:31","voltaje":3.30}
+[2026-01-04 16:19:21] --------------------------------------------------
+[2026-01-04 16:19:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:19:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:19:48] --------------------------------------------------
+[2026-01-04 16:19:48] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:19:48] Topic: esp32/sensor/data
+[2026-01-04 16:19:48] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":34.00,"timestamp":"01:02:03","voltaje":3.30}
+[2026-01-04 16:19:48] --------------------------------------------------
+[2026-01-04 16:19:48] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:19:48] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:19:51] --------------------------------------------------
+[2026-01-04 16:19:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:19:51] Topic: esp32/sensor/data
+[2026-01-04 16:19:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.30,"humedad":34.00,"timestamp":"01:25:01","voltaje":3.30}
+[2026-01-04 16:19:51] --------------------------------------------------
+[2026-01-04 16:19:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:19:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:20:18] --------------------------------------------------
+[2026-01-04 16:20:18] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:20:18] Topic: esp32/sensor/data
+[2026-01-04 16:20:18] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":34.00,"timestamp":"01:02:33","voltaje":3.30}
+[2026-01-04 16:20:18] --------------------------------------------------
+[2026-01-04 16:20:18] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:20:18] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:20:21] --------------------------------------------------
+[2026-01-04 16:20:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:20:21] Topic: esp32/sensor/data
+[2026-01-04 16:20:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.30,"humedad":34.30,"timestamp":"01:25:31","voltaje":3.30}
+[2026-01-04 16:20:21] --------------------------------------------------
+[2026-01-04 16:20:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:20:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:20:48] --------------------------------------------------
+[2026-01-04 16:20:48] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:20:48] Topic: esp32/sensor/data
+[2026-01-04 16:20:48] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":34.00,"timestamp":"01:03:03","voltaje":3.30}
+[2026-01-04 16:20:48] --------------------------------------------------
+[2026-01-04 16:20:48] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:20:48] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:20:51] --------------------------------------------------
+[2026-01-04 16:20:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:20:51] Topic: esp32/sensor/data
+[2026-01-04 16:20:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.30,"humedad":34.20,"timestamp":"01:26:01","voltaje":3.30}
+[2026-01-04 16:20:51] --------------------------------------------------
+[2026-01-04 16:20:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:20:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:21:18] --------------------------------------------------
+[2026-01-04 16:21:18] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:21:18] Topic: esp32/sensor/data
+[2026-01-04 16:21:18] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":23.00,"humedad":34.00,"timestamp":"01:03:33","voltaje":3.30}
+[2026-01-04 16:21:18] --------------------------------------------------
+[2026-01-04 16:21:18] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:21:18] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:21:21] --------------------------------------------------
+[2026-01-04 16:21:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:21:21] Topic: esp32/sensor/data
+[2026-01-04 16:21:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.40,"humedad":34.20,"timestamp":"01:26:31","voltaje":3.30}
+[2026-01-04 16:21:21] --------------------------------------------------
+[2026-01-04 16:21:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:21:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:21:48] --------------------------------------------------
+[2026-01-04 16:21:48] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:21:48] Topic: esp32/sensor/data
+[2026-01-04 16:21:48] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":23.40,"humedad":34.00,"timestamp":"01:04:03","voltaje":3.30}
+[2026-01-04 16:21:48] --------------------------------------------------
+[2026-01-04 16:21:48] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:21:48] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:21:51] --------------------------------------------------
+[2026-01-04 16:21:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:21:51] Topic: esp32/sensor/data
+[2026-01-04 16:21:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.50,"humedad":33.70,"timestamp":"01:27:01","voltaje":3.30}
+[2026-01-04 16:21:51] --------------------------------------------------
+[2026-01-04 16:21:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:21:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:22:18] --------------------------------------------------
+[2026-01-04 16:22:18] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:22:18] Topic: esp32/sensor/data
+[2026-01-04 16:22:18] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":23.40,"humedad":33.00,"timestamp":"01:04:33","voltaje":3.30}
+[2026-01-04 16:22:18] --------------------------------------------------
+[2026-01-04 16:22:18] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:22:18] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:22:21] --------------------------------------------------
+[2026-01-04 16:22:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:22:21] Topic: esp32/sensor/data
+[2026-01-04 16:22:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.50,"humedad":33.50,"timestamp":"01:27:31","voltaje":3.30}
+[2026-01-04 16:22:21] --------------------------------------------------
+[2026-01-04 16:22:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:22:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:22:48] --------------------------------------------------
+[2026-01-04 16:22:48] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:22:48] Topic: esp32/sensor/data
+[2026-01-04 16:22:48] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":23.40,"humedad":33.00,"timestamp":"01:05:03","voltaje":3.30}
+[2026-01-04 16:22:48] --------------------------------------------------
+[2026-01-04 16:22:48] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:22:48] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:22:51] --------------------------------------------------
+[2026-01-04 16:22:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:22:51] Topic: esp32/sensor/data
+[2026-01-04 16:22:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.50,"humedad":33.60,"timestamp":"01:28:01","voltaje":3.30}
+[2026-01-04 16:22:51] --------------------------------------------------
+[2026-01-04 16:22:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:22:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:23:18] --------------------------------------------------
+[2026-01-04 16:23:18] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:23:18] Topic: esp32/sensor/data
+[2026-01-04 16:23:18] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":23.80,"humedad":34.00,"timestamp":"01:05:33","voltaje":3.30}
+[2026-01-04 16:23:18] --------------------------------------------------
+[2026-01-04 16:23:18] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:23:18] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:23:21] --------------------------------------------------
+[2026-01-04 16:23:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:23:21] Topic: esp32/sensor/data
+[2026-01-04 16:23:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.50,"humedad":34.20,"timestamp":"01:28:31","voltaje":3.30}
+[2026-01-04 16:23:21] --------------------------------------------------
+[2026-01-04 16:23:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:23:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:23:48] --------------------------------------------------
+[2026-01-04 16:23:48] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:23:48] Topic: esp32/sensor/data
+[2026-01-04 16:23:48] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":23.80,"humedad":33.00,"timestamp":"01:06:03","voltaje":3.30}
+[2026-01-04 16:23:48] --------------------------------------------------
+[2026-01-04 16:23:48] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:23:48] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:23:51] --------------------------------------------------
+[2026-01-04 16:23:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:23:51] Topic: esp32/sensor/data
+[2026-01-04 16:23:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.50,"humedad":33.40,"timestamp":"01:29:01","voltaje":3.30}
+[2026-01-04 16:23:51] --------------------------------------------------
+[2026-01-04 16:23:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:23:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:24:18] --------------------------------------------------
+[2026-01-04 16:24:18] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:24:18] Topic: esp32/sensor/data
+[2026-01-04 16:24:18] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":23.80,"humedad":33.00,"timestamp":"01:06:33","voltaje":3.30}
+[2026-01-04 16:24:18] --------------------------------------------------
+[2026-01-04 16:24:18] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:24:18] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:24:21] --------------------------------------------------
+[2026-01-04 16:24:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:24:21] Topic: esp32/sensor/data
+[2026-01-04 16:24:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.60,"humedad":33.60,"timestamp":"01:29:31","voltaje":3.30}
+[2026-01-04 16:24:21] --------------------------------------------------
+[2026-01-04 16:24:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:24:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:24:48] --------------------------------------------------
+[2026-01-04 16:24:48] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:24:48] Topic: esp32/sensor/data
+[2026-01-04 16:24:48] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":23.80,"humedad":33.00,"timestamp":"01:07:03","voltaje":3.30}
+[2026-01-04 16:24:48] --------------------------------------------------
+[2026-01-04 16:24:48] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:24:48] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:24:51] --------------------------------------------------
+[2026-01-04 16:24:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:24:51] Topic: esp32/sensor/data
+[2026-01-04 16:24:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.60,"humedad":33.70,"timestamp":"01:30:01","voltaje":3.30}
+[2026-01-04 16:24:51] --------------------------------------------------
+[2026-01-04 16:24:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:24:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:25:18] --------------------------------------------------
+[2026-01-04 16:25:18] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:25:18] Topic: esp32/sensor/data
+[2026-01-04 16:25:18] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":24.10,"humedad":33.00,"timestamp":"01:07:33","voltaje":3.30}
+[2026-01-04 16:25:18] --------------------------------------------------
+[2026-01-04 16:25:18] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:25:18] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:25:21] --------------------------------------------------
+[2026-01-04 16:25:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:25:21] Topic: esp32/sensor/data
+[2026-01-04 16:25:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.60,"humedad":33.60,"timestamp":"01:30:31","voltaje":3.30}
+[2026-01-04 16:25:21] --------------------------------------------------
+[2026-01-04 16:25:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:25:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:25:48] --------------------------------------------------
+[2026-01-04 16:25:48] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:25:48] Topic: esp32/sensor/data
+[2026-01-04 16:25:48] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":24.10,"humedad":33.00,"timestamp":"01:08:03","voltaje":3.30}
+[2026-01-04 16:25:48] --------------------------------------------------
+[2026-01-04 16:25:48] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:25:48] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:25:51] --------------------------------------------------
+[2026-01-04 16:25:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:25:51] Topic: esp32/sensor/data
+[2026-01-04 16:25:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.70,"humedad":33.40,"timestamp":"01:31:01","voltaje":3.30}
+[2026-01-04 16:25:51] --------------------------------------------------
+[2026-01-04 16:25:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:25:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:26:18] --------------------------------------------------
+[2026-01-04 16:26:18] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:26:18] Topic: esp32/sensor/data
+[2026-01-04 16:26:18] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":24.10,"humedad":33.00,"timestamp":"01:08:33","voltaje":3.30}
+[2026-01-04 16:26:18] --------------------------------------------------
+[2026-01-04 16:26:18] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:26:18] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:26:21] --------------------------------------------------
+[2026-01-04 16:26:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:26:21] Topic: esp32/sensor/data
+[2026-01-04 16:26:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.90,"humedad":33.50,"timestamp":"01:31:31","voltaje":3.30}
+[2026-01-04 16:26:21] --------------------------------------------------
+[2026-01-04 16:26:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:26:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:26:48] --------------------------------------------------
+[2026-01-04 16:26:48] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:26:48] Topic: esp32/sensor/data
+[2026-01-04 16:26:48] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":24.10,"humedad":33.00,"timestamp":"01:09:03","voltaje":3.30}
+[2026-01-04 16:26:48] --------------------------------------------------
+[2026-01-04 16:26:48] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:26:48] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:26:51] --------------------------------------------------
+[2026-01-04 16:26:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:26:51] Topic: esp32/sensor/data
+[2026-01-04 16:26:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.90,"humedad":33.40,"timestamp":"01:32:01","voltaje":3.30}
+[2026-01-04 16:26:51] --------------------------------------------------
+[2026-01-04 16:26:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:26:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:27:19] --------------------------------------------------
+[2026-01-04 16:27:19] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:27:19] Topic: esp32/sensor/data
+[2026-01-04 16:27:19] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":24.10,"humedad":33.00,"timestamp":"01:09:33","voltaje":3.30}
+[2026-01-04 16:27:19] --------------------------------------------------
+[2026-01-04 16:27:19] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:27:19] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:27:21] --------------------------------------------------
+[2026-01-04 16:27:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:27:21] Topic: esp32/sensor/data
+[2026-01-04 16:27:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.90,"humedad":33.20,"timestamp":"01:32:31","voltaje":3.30}
+[2026-01-04 16:27:21] --------------------------------------------------
+[2026-01-04 16:27:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:27:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:27:49] --------------------------------------------------
+[2026-01-04 16:27:49] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:27:49] Topic: esp32/sensor/data
+[2026-01-04 16:27:49] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":24.10,"humedad":33.00,"timestamp":"01:10:03","voltaje":3.30}
+[2026-01-04 16:27:49] --------------------------------------------------
+[2026-01-04 16:27:49] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:27:49] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:27:51] --------------------------------------------------
+[2026-01-04 16:27:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:27:51] Topic: esp32/sensor/data
+[2026-01-04 16:27:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.90,"humedad":33.40,"timestamp":"01:33:01","voltaje":3.30}
+[2026-01-04 16:27:51] --------------------------------------------------
+[2026-01-04 16:27:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:27:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:28:19] --------------------------------------------------
+[2026-01-04 16:28:19] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:28:19] Topic: esp32/sensor/data
+[2026-01-04 16:28:19] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":24.10,"humedad":32.00,"timestamp":"01:10:33","voltaje":3.30}
+[2026-01-04 16:28:19] --------------------------------------------------
+[2026-01-04 16:28:19] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:28:19] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:28:21] --------------------------------------------------
+[2026-01-04 16:28:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:28:21] Topic: esp32/sensor/data
+[2026-01-04 16:28:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.80,"humedad":33.20,"timestamp":"01:33:31","voltaje":3.30}
+[2026-01-04 16:28:21] --------------------------------------------------
+[2026-01-04 16:28:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:28:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:28:49] --------------------------------------------------
+[2026-01-04 16:28:49] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:28:49] Topic: esp32/sensor/data
+[2026-01-04 16:28:49] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":24.10,"humedad":32.00,"timestamp":"01:11:03","voltaje":3.30}
+[2026-01-04 16:28:49] --------------------------------------------------
+[2026-01-04 16:28:49] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:28:49] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:28:51] --------------------------------------------------
+[2026-01-04 16:28:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:28:51] Topic: esp32/sensor/data
+[2026-01-04 16:28:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.70,"humedad":33.20,"timestamp":"01:34:01","voltaje":3.30}
+[2026-01-04 16:28:51] --------------------------------------------------
+[2026-01-04 16:28:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:28:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:29:19] --------------------------------------------------
+[2026-01-04 16:29:19] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:29:19] Topic: esp32/sensor/data
+[2026-01-04 16:29:19] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":24.10,"humedad":32.00,"timestamp":"01:11:33","voltaje":3.30}
+[2026-01-04 16:29:19] --------------------------------------------------
+[2026-01-04 16:29:19] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:29:19] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:29:21] --------------------------------------------------
+[2026-01-04 16:29:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:29:21] Topic: esp32/sensor/data
+[2026-01-04 16:29:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.70,"humedad":33.20,"timestamp":"01:34:31","voltaje":3.30}
+[2026-01-04 16:29:21] --------------------------------------------------
+[2026-01-04 16:29:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:29:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:29:49] --------------------------------------------------
+[2026-01-04 16:29:49] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:29:49] Topic: esp32/sensor/data
+[2026-01-04 16:29:49] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":24.10,"humedad":32.00,"timestamp":"01:12:03","voltaje":3.30}
+[2026-01-04 16:29:49] --------------------------------------------------
+[2026-01-04 16:29:49] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:29:49] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:29:51] --------------------------------------------------
+[2026-01-04 16:29:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:29:51] Topic: esp32/sensor/data
+[2026-01-04 16:29:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.70,"humedad":33.80,"timestamp":"01:35:01","voltaje":3.30}
+[2026-01-04 16:29:51] --------------------------------------------------
+[2026-01-04 16:29:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:29:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:30:19] --------------------------------------------------
+[2026-01-04 16:30:19] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:30:19] Topic: esp32/sensor/data
+[2026-01-04 16:30:19] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":24.10,"humedad":33.00,"timestamp":"01:12:33","voltaje":3.30}
+[2026-01-04 16:30:19] --------------------------------------------------
+[2026-01-04 16:30:19] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:30:19] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:30:21] --------------------------------------------------
+[2026-01-04 16:30:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:30:21] Topic: esp32/sensor/data
+[2026-01-04 16:30:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.70,"humedad":33.40,"timestamp":"01:35:31","voltaje":3.30}
+[2026-01-04 16:30:21] --------------------------------------------------
+[2026-01-04 16:30:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:30:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:30:49] --------------------------------------------------
+[2026-01-04 16:30:49] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:30:49] Topic: esp32/sensor/data
+[2026-01-04 16:30:49] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":24.10,"humedad":32.00,"timestamp":"01:13:03","voltaje":3.30}
+[2026-01-04 16:30:49] --------------------------------------------------
+[2026-01-04 16:30:49] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:30:49] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:30:51] --------------------------------------------------
+[2026-01-04 16:30:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:30:51] Topic: esp32/sensor/data
+[2026-01-04 16:30:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.70,"humedad":33.70,"timestamp":"01:36:01","voltaje":3.30}
+[2026-01-04 16:30:51] --------------------------------------------------
+[2026-01-04 16:30:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:30:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:31:19] --------------------------------------------------
+[2026-01-04 16:31:19] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:31:19] Topic: esp32/sensor/data
+[2026-01-04 16:31:19] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":24.10,"humedad":32.00,"timestamp":"01:13:33","voltaje":3.30}
+[2026-01-04 16:31:19] --------------------------------------------------
+[2026-01-04 16:31:19] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:31:19] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:31:21] --------------------------------------------------
+[2026-01-04 16:31:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:31:21] Topic: esp32/sensor/data
+[2026-01-04 16:31:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.70,"humedad":33.60,"timestamp":"01:36:31","voltaje":3.30}
+[2026-01-04 16:31:21] --------------------------------------------------
+[2026-01-04 16:31:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:31:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:31:49] --------------------------------------------------
+[2026-01-04 16:31:49] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:31:49] Topic: esp32/sensor/data
+[2026-01-04 16:31:49] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":24.10,"humedad":32.00,"timestamp":"01:14:03","voltaje":3.30}
+[2026-01-04 16:31:49] --------------------------------------------------
+[2026-01-04 16:31:49] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:31:49] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:31:51] --------------------------------------------------
+[2026-01-04 16:31:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:31:51] Topic: esp32/sensor/data
+[2026-01-04 16:31:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.70,"humedad":33.20,"timestamp":"01:37:01","voltaje":3.30}
+[2026-01-04 16:31:51] --------------------------------------------------
+[2026-01-04 16:31:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:31:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:32:19] --------------------------------------------------
+[2026-01-04 16:32:19] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:32:19] Topic: esp32/sensor/data
+[2026-01-04 16:32:19] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":24.10,"humedad":32.00,"timestamp":"01:14:33","voltaje":3.30}
+[2026-01-04 16:32:19] --------------------------------------------------
+[2026-01-04 16:32:19] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:32:19] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:32:21] --------------------------------------------------
+[2026-01-04 16:32:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:32:21] Topic: esp32/sensor/data
+[2026-01-04 16:32:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.70,"humedad":33.10,"timestamp":"01:37:31","voltaje":3.30}
+[2026-01-04 16:32:21] --------------------------------------------------
+[2026-01-04 16:32:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:32:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:32:49] --------------------------------------------------
+[2026-01-04 16:32:49] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:32:49] Topic: esp32/sensor/data
+[2026-01-04 16:32:49] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":24.10,"humedad":32.00,"timestamp":"01:15:03","voltaje":3.30}
+[2026-01-04 16:32:49] --------------------------------------------------
+[2026-01-04 16:32:49] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:32:49] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:32:51] --------------------------------------------------
+[2026-01-04 16:32:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:32:51] Topic: esp32/sensor/data
+[2026-01-04 16:32:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.80,"humedad":33.10,"timestamp":"01:38:01","voltaje":3.30}
+[2026-01-04 16:32:51] --------------------------------------------------
+[2026-01-04 16:32:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:32:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:33:19] --------------------------------------------------
+[2026-01-04 16:33:19] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:33:19] Topic: esp32/sensor/data
+[2026-01-04 16:33:19] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":24.10,"humedad":31.00,"timestamp":"01:15:33","voltaje":3.30}
+[2026-01-04 16:33:19] --------------------------------------------------
+[2026-01-04 16:33:19] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:33:19] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:33:21] --------------------------------------------------
+[2026-01-04 16:33:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:33:21] Topic: esp32/sensor/data
+[2026-01-04 16:33:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.80,"humedad":33.10,"timestamp":"01:38:31","voltaje":3.30}
+[2026-01-04 16:33:21] --------------------------------------------------
+[2026-01-04 16:33:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:33:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:33:49] --------------------------------------------------
+[2026-01-04 16:33:49] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:33:49] Topic: esp32/sensor/data
+[2026-01-04 16:33:49] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":23.80,"humedad":31.00,"timestamp":"01:16:04","voltaje":3.30}
+[2026-01-04 16:33:49] --------------------------------------------------
+[2026-01-04 16:33:49] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:33:49] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:33:51] --------------------------------------------------
+[2026-01-04 16:33:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:33:51] Topic: esp32/sensor/data
+[2026-01-04 16:33:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.80,"humedad":33.30,"timestamp":"01:39:01","voltaje":3.30}
+[2026-01-04 16:33:51] --------------------------------------------------
+[2026-01-04 16:33:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:33:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:34:19] --------------------------------------------------
+[2026-01-04 16:34:19] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:34:19] Topic: esp32/sensor/data
+[2026-01-04 16:34:19] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":23.40,"humedad":32.00,"timestamp":"01:16:34","voltaje":3.30}
+[2026-01-04 16:34:19] --------------------------------------------------
+[2026-01-04 16:34:19] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:34:19] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:34:21] --------------------------------------------------
+[2026-01-04 16:34:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:34:21] Topic: esp32/sensor/data
+[2026-01-04 16:34:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.90,"humedad":33.30,"timestamp":"01:39:31","voltaje":3.30}
+[2026-01-04 16:34:21] --------------------------------------------------
+[2026-01-04 16:34:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:34:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:34:49] --------------------------------------------------
+[2026-01-04 16:34:49] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:34:49] Topic: esp32/sensor/data
+[2026-01-04 16:34:49] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":23.40,"humedad":32.00,"timestamp":"01:17:04","voltaje":3.30}
+[2026-01-04 16:34:49] --------------------------------------------------
+[2026-01-04 16:34:49] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:34:49] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:34:51] --------------------------------------------------
+[2026-01-04 16:34:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:34:51] Topic: esp32/sensor/data
+[2026-01-04 16:34:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.80,"humedad":33.00,"timestamp":"01:40:01","voltaje":3.30}
+[2026-01-04 16:34:51] --------------------------------------------------
+[2026-01-04 16:34:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:34:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:35:19] --------------------------------------------------
+[2026-01-04 16:35:19] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:35:19] Topic: esp32/sensor/data
+[2026-01-04 16:35:19] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":23.00,"humedad":32.00,"timestamp":"01:17:34","voltaje":3.30}
+[2026-01-04 16:35:19] --------------------------------------------------
+[2026-01-04 16:35:19] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:35:19] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:35:21] --------------------------------------------------
+[2026-01-04 16:35:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:35:21] Topic: esp32/sensor/data
+[2026-01-04 16:35:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.70,"humedad":33.60,"timestamp":"01:40:31","voltaje":3.30}
+[2026-01-04 16:35:21] --------------------------------------------------
+[2026-01-04 16:35:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:35:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:35:49] --------------------------------------------------
+[2026-01-04 16:35:49] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:35:49] Topic: esp32/sensor/data
+[2026-01-04 16:35:49] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":23.00,"humedad":32.00,"timestamp":"01:18:04","voltaje":3.30}
+[2026-01-04 16:35:49] --------------------------------------------------
+[2026-01-04 16:35:49] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:35:49] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:35:51] --------------------------------------------------
+[2026-01-04 16:35:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:35:51] Topic: esp32/sensor/data
+[2026-01-04 16:35:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.70,"humedad":33.60,"timestamp":"01:41:01","voltaje":3.30}
+[2026-01-04 16:35:51] --------------------------------------------------
+[2026-01-04 16:35:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:35:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:36:19] --------------------------------------------------
+[2026-01-04 16:36:19] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:36:19] Topic: esp32/sensor/data
+[2026-01-04 16:36:19] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":23.00,"humedad":32.00,"timestamp":"01:18:34","voltaje":3.30}
+[2026-01-04 16:36:19] --------------------------------------------------
+[2026-01-04 16:36:19] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:36:19] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:36:21] --------------------------------------------------
+[2026-01-04 16:36:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:36:21] Topic: esp32/sensor/data
+[2026-01-04 16:36:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.60,"humedad":33.50,"timestamp":"01:41:31","voltaje":3.30}
+[2026-01-04 16:36:21] --------------------------------------------------
+[2026-01-04 16:36:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:36:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:36:49] --------------------------------------------------
+[2026-01-04 16:36:49] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:36:49] Topic: esp32/sensor/data
+[2026-01-04 16:36:49] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":23.00,"humedad":32.00,"timestamp":"01:19:04","voltaje":3.30}
+[2026-01-04 16:36:49] --------------------------------------------------
+[2026-01-04 16:36:49] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:36:49] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:36:51] --------------------------------------------------
+[2026-01-04 16:36:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:36:51] Topic: esp32/sensor/data
+[2026-01-04 16:36:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.50,"humedad":33.60,"timestamp":"01:42:01","voltaje":3.30}
+[2026-01-04 16:36:51] --------------------------------------------------
+[2026-01-04 16:36:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:36:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:37:19] --------------------------------------------------
+[2026-01-04 16:37:19] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:37:19] Topic: esp32/sensor/data
+[2026-01-04 16:37:19] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":23.00,"humedad":32.00,"timestamp":"01:19:34","voltaje":3.30}
+[2026-01-04 16:37:19] --------------------------------------------------
+[2026-01-04 16:37:19] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:37:19] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:37:21] --------------------------------------------------
+[2026-01-04 16:37:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:37:21] Topic: esp32/sensor/data
+[2026-01-04 16:37:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.50,"humedad":33.80,"timestamp":"01:42:31","voltaje":3.30}
+[2026-01-04 16:37:21] --------------------------------------------------
+[2026-01-04 16:37:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:37:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:37:49] --------------------------------------------------
+[2026-01-04 16:37:49] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:37:49] Topic: esp32/sensor/data
+[2026-01-04 16:37:49] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":23.00,"humedad":32.00,"timestamp":"01:20:04","voltaje":3.30}
+[2026-01-04 16:37:49] --------------------------------------------------
+[2026-01-04 16:37:49] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:37:49] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:37:51] --------------------------------------------------
+[2026-01-04 16:37:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:37:51] Topic: esp32/sensor/data
+[2026-01-04 16:37:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.40,"humedad":33.80,"timestamp":"01:43:01","voltaje":3.30}
+[2026-01-04 16:37:51] --------------------------------------------------
+[2026-01-04 16:37:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:37:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:38:19] --------------------------------------------------
+[2026-01-04 16:38:19] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:38:19] Topic: esp32/sensor/data
+[2026-01-04 16:38:19] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":23.00,"humedad":32.00,"timestamp":"01:20:34","voltaje":3.30}
+[2026-01-04 16:38:19] --------------------------------------------------
+[2026-01-04 16:38:19] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:38:19] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:38:21] --------------------------------------------------
+[2026-01-04 16:38:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:38:21] Topic: esp32/sensor/data
+[2026-01-04 16:38:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.30,"humedad":33.80,"timestamp":"01:43:31","voltaje":3.30}
+[2026-01-04 16:38:21] --------------------------------------------------
+[2026-01-04 16:38:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:38:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:38:49] --------------------------------------------------
+[2026-01-04 16:38:49] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:38:49] Topic: esp32/sensor/data
+[2026-01-04 16:38:49] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":32.00,"timestamp":"01:21:04","voltaje":3.30}
+[2026-01-04 16:38:49] --------------------------------------------------
+[2026-01-04 16:38:49] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:38:49] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:38:51] --------------------------------------------------
+[2026-01-04 16:38:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:38:51] Topic: esp32/sensor/data
+[2026-01-04 16:38:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.40,"humedad":33.50,"timestamp":"01:44:01","voltaje":3.30}
+[2026-01-04 16:38:51] --------------------------------------------------
+[2026-01-04 16:38:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:38:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:39:19] --------------------------------------------------
+[2026-01-04 16:39:19] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:39:19] Topic: esp32/sensor/data
+[2026-01-04 16:39:19] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":32.00,"timestamp":"01:21:34","voltaje":3.30}
+[2026-01-04 16:39:19] --------------------------------------------------
+[2026-01-04 16:39:19] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:39:19] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:39:21] --------------------------------------------------
+[2026-01-04 16:39:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:39:21] Topic: esp32/sensor/data
+[2026-01-04 16:39:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.40,"humedad":33.80,"timestamp":"01:44:31","voltaje":3.30}
+[2026-01-04 16:39:21] --------------------------------------------------
+[2026-01-04 16:39:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:39:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:39:49] --------------------------------------------------
+[2026-01-04 16:39:49] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:39:49] Topic: esp32/sensor/data
+[2026-01-04 16:39:49] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":33.00,"timestamp":"01:22:04","voltaje":3.30}
+[2026-01-04 16:39:49] --------------------------------------------------
+[2026-01-04 16:39:49] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:39:49] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:39:51] --------------------------------------------------
+[2026-01-04 16:39:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:39:51] Topic: esp32/sensor/data
+[2026-01-04 16:39:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.40,"humedad":33.50,"timestamp":"01:45:01","voltaje":3.30}
+[2026-01-04 16:39:51] --------------------------------------------------
+[2026-01-04 16:39:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:39:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:40:19] --------------------------------------------------
+[2026-01-04 16:40:19] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:40:19] Topic: esp32/sensor/data
+[2026-01-04 16:40:19] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":33.00,"timestamp":"01:22:34","voltaje":3.30}
+[2026-01-04 16:40:19] --------------------------------------------------
+[2026-01-04 16:40:19] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:40:19] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:40:21] --------------------------------------------------
+[2026-01-04 16:40:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:40:21] Topic: esp32/sensor/data
+[2026-01-04 16:40:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.30,"humedad":33.80,"timestamp":"01:45:31","voltaje":3.30}
+[2026-01-04 16:40:21] --------------------------------------------------
+[2026-01-04 16:40:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:40:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:40:49] --------------------------------------------------
+[2026-01-04 16:40:49] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:40:49] Topic: esp32/sensor/data
+[2026-01-04 16:40:49] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":33.00,"timestamp":"01:23:04","voltaje":3.30}
+[2026-01-04 16:40:49] --------------------------------------------------
+[2026-01-04 16:40:49] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:40:49] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:40:51] --------------------------------------------------
+[2026-01-04 16:40:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:40:51] Topic: esp32/sensor/data
+[2026-01-04 16:40:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.20,"humedad":34.00,"timestamp":"01:46:01","voltaje":3.30}
+[2026-01-04 16:40:51] --------------------------------------------------
+[2026-01-04 16:40:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:40:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:41:19] --------------------------------------------------
+[2026-01-04 16:41:19] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:41:19] Topic: esp32/sensor/data
+[2026-01-04 16:41:19] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":33.00,"timestamp":"01:23:34","voltaje":3.30}
+[2026-01-04 16:41:19] --------------------------------------------------
+[2026-01-04 16:41:19] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:41:19] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:41:21] --------------------------------------------------
+[2026-01-04 16:41:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:41:21] Topic: esp32/sensor/data
+[2026-01-04 16:41:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.30,"humedad":33.80,"timestamp":"01:46:31","voltaje":3.30}
+[2026-01-04 16:41:21] --------------------------------------------------
+[2026-01-04 16:41:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:41:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:41:49] --------------------------------------------------
+[2026-01-04 16:41:49] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:41:49] Topic: esp32/sensor/data
+[2026-01-04 16:41:49] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":33.00,"timestamp":"01:24:04","voltaje":3.30}
+[2026-01-04 16:41:49] --------------------------------------------------
+[2026-01-04 16:41:49] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:41:49] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:41:51] --------------------------------------------------
+[2026-01-04 16:41:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:41:51] Topic: esp32/sensor/data
+[2026-01-04 16:41:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.30,"humedad":34.00,"timestamp":"01:47:01","voltaje":3.30}
+[2026-01-04 16:41:51] --------------------------------------------------
+[2026-01-04 16:41:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:41:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:42:19] --------------------------------------------------
+[2026-01-04 16:42:19] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:42:19] Topic: esp32/sensor/data
+[2026-01-04 16:42:19] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":33.00,"timestamp":"01:24:34","voltaje":3.30}
+[2026-01-04 16:42:19] --------------------------------------------------
+[2026-01-04 16:42:19] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:42:19] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:42:21] --------------------------------------------------
+[2026-01-04 16:42:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:42:21] Topic: esp32/sensor/data
+[2026-01-04 16:42:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.20,"humedad":34.00,"timestamp":"01:47:31","voltaje":3.30}
+[2026-01-04 16:42:21] --------------------------------------------------
+[2026-01-04 16:42:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:42:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:42:49] --------------------------------------------------
+[2026-01-04 16:42:49] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:42:49] Topic: esp32/sensor/data
+[2026-01-04 16:42:49] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":33.00,"timestamp":"01:25:04","voltaje":3.30}
+[2026-01-04 16:42:49] --------------------------------------------------
+[2026-01-04 16:42:49] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:42:49] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:42:51] --------------------------------------------------
+[2026-01-04 16:42:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:42:51] Topic: esp32/sensor/data
+[2026-01-04 16:42:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.30,"humedad":33.80,"timestamp":"01:48:01","voltaje":3.30}
+[2026-01-04 16:42:51] --------------------------------------------------
+[2026-01-04 16:42:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:42:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:43:19] --------------------------------------------------
+[2026-01-04 16:43:19] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:43:19] Topic: esp32/sensor/data
+[2026-01-04 16:43:19] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":33.00,"timestamp":"01:25:34","voltaje":3.30}
+[2026-01-04 16:43:19] --------------------------------------------------
+[2026-01-04 16:43:19] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:43:19] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:43:21] --------------------------------------------------
+[2026-01-04 16:43:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:43:21] Topic: esp32/sensor/data
+[2026-01-04 16:43:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.40,"humedad":33.70,"timestamp":"01:48:31","voltaje":3.30}
+[2026-01-04 16:43:21] --------------------------------------------------
+[2026-01-04 16:43:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:43:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:43:49] --------------------------------------------------
+[2026-01-04 16:43:49] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:43:49] Topic: esp32/sensor/data
+[2026-01-04 16:43:49] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":33.00,"timestamp":"01:26:04","voltaje":3.30}
+[2026-01-04 16:43:49] --------------------------------------------------
+[2026-01-04 16:43:49] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:43:49] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:43:51] --------------------------------------------------
+[2026-01-04 16:43:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:43:51] Topic: esp32/sensor/data
+[2026-01-04 16:43:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.50,"humedad":33.50,"timestamp":"01:49:01","voltaje":3.30}
+[2026-01-04 16:43:51] --------------------------------------------------
+[2026-01-04 16:43:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:43:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:44:19] --------------------------------------------------
+[2026-01-04 16:44:19] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:44:19] Topic: esp32/sensor/data
+[2026-01-04 16:44:19] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":33.00,"timestamp":"01:26:34","voltaje":3.30}
+[2026-01-04 16:44:19] --------------------------------------------------
+[2026-01-04 16:44:19] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:44:19] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:44:21] --------------------------------------------------
+[2026-01-04 16:44:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:44:21] Topic: esp32/sensor/data
+[2026-01-04 16:44:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.50,"humedad":33.50,"timestamp":"01:49:31","voltaje":3.30}
+[2026-01-04 16:44:21] --------------------------------------------------
+[2026-01-04 16:44:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:44:21] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:44:49] --------------------------------------------------
+[2026-01-04 16:44:49] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:44:49] Topic: esp32/sensor/data
+[2026-01-04 16:44:49] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":22.60,"humedad":33.00,"timestamp":"01:27:04","voltaje":3.30}
+[2026-01-04 16:44:49] --------------------------------------------------
+[2026-01-04 16:44:49] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:44:49] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:44:51] --------------------------------------------------
+[2026-01-04 16:44:51] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:44:51] Topic: esp32/sensor/data
+[2026-01-04 16:44:51] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.70,"humedad":33.30,"timestamp":"01:50:01","voltaje":3.30}
+[2026-01-04 16:44:51] --------------------------------------------------
+[2026-01-04 16:44:51] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:44:51] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 16:45:20] --------------------------------------------------
+[2026-01-04 16:45:20] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:45:20] Topic: esp32/sensor/data
+[2026-01-04 16:45:20] Mensaje: {"dispositivo":"ESP32_SM0S69","temperatura":23.00,"humedad":33.00,"timestamp":"01:27:34","voltaje":3.30}
+[2026-01-04 16:45:20] --------------------------------------------------
+[2026-01-04 16:45:20] Procesando datos de: ESP32_SM0S69
+[2026-01-04 16:45:20] Actualizando dispositivo: ESP32_SM0S69
+
+[2026-01-04 16:45:21] --------------------------------------------------
+[2026-01-04 16:45:21] 📨 MENSAJE RECIBIDO
+[2026-01-04 16:45:21] Topic: esp32/sensor/data
+[2026-01-04 16:45:21] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.70,"humedad":33.10,"timestamp":"01:50:31","voltaje":3.30}
+[2026-01-04 16:45:21] --------------------------------------------------
+[2026-01-04 16:45:21] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 16:45:21] Actualizando dispositivo: ESP32_KHI9GU
+[2026-01-04 18:32:37] 📡 Estado recibido en esp32/sensor/status: {"dispositivo":"ESP32_KHI9GU","estado":"online","ip":"192.168.15.67","rssi":-16,"timestamp":"00:00:05"}
+[2026-01-04 18:32:37] Dispositivo ESP32_KHI9GU está online
+
+[2026-01-04 18:33:02] --------------------------------------------------
+[2026-01-04 18:33:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:33:02] Topic: esp32/sensor/data
+[2026-01-04 18:33:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":23.00,"humedad":38.60,"timestamp":"00:00:30","voltaje":3.30}
+[2026-01-04 18:33:02] --------------------------------------------------
+[2026-01-04 18:33:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:33:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:33:32] --------------------------------------------------
+[2026-01-04 18:33:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:33:32] Topic: esp32/sensor/data
+[2026-01-04 18:33:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":23.10,"humedad":36.60,"timestamp":"00:01:00","voltaje":3.30}
+[2026-01-04 18:33:32] --------------------------------------------------
+[2026-01-04 18:33:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:33:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:34:02] --------------------------------------------------
+[2026-01-04 18:34:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:34:02] Topic: esp32/sensor/data
+[2026-01-04 18:34:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":23.10,"humedad":36.20,"timestamp":"00:01:30","voltaje":3.30}
+[2026-01-04 18:34:02] --------------------------------------------------
+[2026-01-04 18:34:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:34:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:34:32] --------------------------------------------------
+[2026-01-04 18:34:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:34:32] Topic: esp32/sensor/data
+[2026-01-04 18:34:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":23.20,"humedad":36.00,"timestamp":"00:02:00","voltaje":3.30}
+[2026-01-04 18:34:32] --------------------------------------------------
+[2026-01-04 18:34:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:34:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:35:02] --------------------------------------------------
+[2026-01-04 18:35:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:35:02] Topic: esp32/sensor/data
+[2026-01-04 18:35:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":23.30,"humedad":35.90,"timestamp":"00:02:30","voltaje":3.30}
+[2026-01-04 18:35:02] --------------------------------------------------
+[2026-01-04 18:35:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:35:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:35:32] --------------------------------------------------
+[2026-01-04 18:35:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:35:32] Topic: esp32/sensor/data
+[2026-01-04 18:35:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":23.30,"humedad":35.80,"timestamp":"00:03:00","voltaje":3.30}
+[2026-01-04 18:35:32] --------------------------------------------------
+[2026-01-04 18:35:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:35:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:36:02] --------------------------------------------------
+[2026-01-04 18:36:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:36:02] Topic: esp32/sensor/data
+[2026-01-04 18:36:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":23.40,"humedad":35.50,"timestamp":"00:03:30","voltaje":3.30}
+[2026-01-04 18:36:02] --------------------------------------------------
+[2026-01-04 18:36:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:36:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:36:32] --------------------------------------------------
+[2026-01-04 18:36:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:36:32] Topic: esp32/sensor/data
+[2026-01-04 18:36:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":23.50,"humedad":35.70,"timestamp":"00:04:00","voltaje":3.30}
+[2026-01-04 18:36:32] --------------------------------------------------
+[2026-01-04 18:36:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:36:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:37:02] --------------------------------------------------
+[2026-01-04 18:37:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:37:02] Topic: esp32/sensor/data
+[2026-01-04 18:37:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":23.60,"humedad":35.50,"timestamp":"00:04:30","voltaje":3.30}
+[2026-01-04 18:37:02] --------------------------------------------------
+[2026-01-04 18:37:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:37:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:37:32] --------------------------------------------------
+[2026-01-04 18:37:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:37:32] Topic: esp32/sensor/data
+[2026-01-04 18:37:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":23.70,"humedad":35.50,"timestamp":"00:05:00","voltaje":3.30}
+[2026-01-04 18:37:32] --------------------------------------------------
+[2026-01-04 18:37:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:37:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:38:02] --------------------------------------------------
+[2026-01-04 18:38:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:38:02] Topic: esp32/sensor/data
+[2026-01-04 18:38:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":23.80,"humedad":35.30,"timestamp":"00:05:30","voltaje":3.30}
+[2026-01-04 18:38:02] --------------------------------------------------
+[2026-01-04 18:38:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:38:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:38:32] --------------------------------------------------
+[2026-01-04 18:38:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:38:32] Topic: esp32/sensor/data
+[2026-01-04 18:38:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":23.80,"humedad":35.10,"timestamp":"00:06:00","voltaje":3.30}
+[2026-01-04 18:38:32] --------------------------------------------------
+[2026-01-04 18:38:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:38:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:39:02] --------------------------------------------------
+[2026-01-04 18:39:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:39:02] Topic: esp32/sensor/data
+[2026-01-04 18:39:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":23.80,"humedad":35.10,"timestamp":"00:06:30","voltaje":3.30}
+[2026-01-04 18:39:02] --------------------------------------------------
+[2026-01-04 18:39:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:39:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:39:32] --------------------------------------------------
+[2026-01-04 18:39:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:39:32] Topic: esp32/sensor/data
+[2026-01-04 18:39:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":23.80,"humedad":35.40,"timestamp":"00:07:00","voltaje":3.30}
+[2026-01-04 18:39:32] --------------------------------------------------
+[2026-01-04 18:39:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:39:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:40:02] --------------------------------------------------
+[2026-01-04 18:40:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:40:02] Topic: esp32/sensor/data
+[2026-01-04 18:40:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":23.90,"humedad":35.20,"timestamp":"00:07:30","voltaje":3.30}
+[2026-01-04 18:40:02] --------------------------------------------------
+[2026-01-04 18:40:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:40:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:40:32] --------------------------------------------------
+[2026-01-04 18:40:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:40:32] Topic: esp32/sensor/data
+[2026-01-04 18:40:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":23.90,"humedad":35.30,"timestamp":"00:08:00","voltaje":3.30}
+[2026-01-04 18:40:32] --------------------------------------------------
+[2026-01-04 18:40:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:40:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:41:02] --------------------------------------------------
+[2026-01-04 18:41:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:41:02] Topic: esp32/sensor/data
+[2026-01-04 18:41:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.00,"humedad":35.00,"timestamp":"00:08:30","voltaje":3.30}
+[2026-01-04 18:41:02] --------------------------------------------------
+[2026-01-04 18:41:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:41:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:41:32] --------------------------------------------------
+[2026-01-04 18:41:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:41:32] Topic: esp32/sensor/data
+[2026-01-04 18:41:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.10,"humedad":34.90,"timestamp":"00:09:00","voltaje":3.30}
+[2026-01-04 18:41:32] --------------------------------------------------
+[2026-01-04 18:41:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:41:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:42:02] --------------------------------------------------
+[2026-01-04 18:42:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:42:02] Topic: esp32/sensor/data
+[2026-01-04 18:42:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.20,"humedad":34.90,"timestamp":"00:09:30","voltaje":3.30}
+[2026-01-04 18:42:02] --------------------------------------------------
+[2026-01-04 18:42:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:42:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:42:32] --------------------------------------------------
+[2026-01-04 18:42:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:42:32] Topic: esp32/sensor/data
+[2026-01-04 18:42:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.30,"humedad":34.60,"timestamp":"00:10:00","voltaje":3.30}
+[2026-01-04 18:42:32] --------------------------------------------------
+[2026-01-04 18:42:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:42:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:43:02] --------------------------------------------------
+[2026-01-04 18:43:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:43:02] Topic: esp32/sensor/data
+[2026-01-04 18:43:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.30,"humedad":34.70,"timestamp":"00:10:30","voltaje":3.30}
+[2026-01-04 18:43:02] --------------------------------------------------
+[2026-01-04 18:43:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:43:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:43:32] --------------------------------------------------
+[2026-01-04 18:43:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:43:32] Topic: esp32/sensor/data
+[2026-01-04 18:43:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.30,"humedad":34.30,"timestamp":"00:11:00","voltaje":3.30}
+[2026-01-04 18:43:32] --------------------------------------------------
+[2026-01-04 18:43:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:43:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:44:02] --------------------------------------------------
+[2026-01-04 18:44:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:44:02] Topic: esp32/sensor/data
+[2026-01-04 18:44:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.30,"humedad":34.20,"timestamp":"00:11:30","voltaje":3.30}
+[2026-01-04 18:44:02] --------------------------------------------------
+[2026-01-04 18:44:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:44:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:44:32] --------------------------------------------------
+[2026-01-04 18:44:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:44:32] Topic: esp32/sensor/data
+[2026-01-04 18:44:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.30,"humedad":34.70,"timestamp":"00:12:00","voltaje":3.30}
+[2026-01-04 18:44:32] --------------------------------------------------
+[2026-01-04 18:44:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:44:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:45:02] --------------------------------------------------
+[2026-01-04 18:45:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:45:02] Topic: esp32/sensor/data
+[2026-01-04 18:45:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.30,"humedad":34.30,"timestamp":"00:12:30","voltaje":3.30}
+[2026-01-04 18:45:02] --------------------------------------------------
+[2026-01-04 18:45:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:45:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:45:32] --------------------------------------------------
+[2026-01-04 18:45:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:45:32] Topic: esp32/sensor/data
+[2026-01-04 18:45:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.30,"humedad":34.40,"timestamp":"00:13:00","voltaje":3.30}
+[2026-01-04 18:45:32] --------------------------------------------------
+[2026-01-04 18:45:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:45:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:46:02] --------------------------------------------------
+[2026-01-04 18:46:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:46:02] Topic: esp32/sensor/data
+[2026-01-04 18:46:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.30,"humedad":34.10,"timestamp":"00:13:30","voltaje":3.30}
+[2026-01-04 18:46:02] --------------------------------------------------
+[2026-01-04 18:46:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:46:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:46:32] --------------------------------------------------
+[2026-01-04 18:46:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:46:32] Topic: esp32/sensor/data
+[2026-01-04 18:46:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.20,"humedad":34.10,"timestamp":"00:14:00","voltaje":3.30}
+[2026-01-04 18:46:32] --------------------------------------------------
+[2026-01-04 18:46:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:46:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:47:02] --------------------------------------------------
+[2026-01-04 18:47:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:47:02] Topic: esp32/sensor/data
+[2026-01-04 18:47:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.20,"humedad":34.00,"timestamp":"00:14:30","voltaje":3.30}
+[2026-01-04 18:47:02] --------------------------------------------------
+[2026-01-04 18:47:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:47:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:47:32] --------------------------------------------------
+[2026-01-04 18:47:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:47:32] Topic: esp32/sensor/data
+[2026-01-04 18:47:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.10,"humedad":34.20,"timestamp":"00:15:00","voltaje":3.30}
+[2026-01-04 18:47:32] --------------------------------------------------
+[2026-01-04 18:47:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:47:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:48:02] --------------------------------------------------
+[2026-01-04 18:48:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:48:02] Topic: esp32/sensor/data
+[2026-01-04 18:48:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.10,"humedad":34.10,"timestamp":"00:15:30","voltaje":3.30}
+[2026-01-04 18:48:02] --------------------------------------------------
+[2026-01-04 18:48:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:48:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:48:32] --------------------------------------------------
+[2026-01-04 18:48:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:48:32] Topic: esp32/sensor/data
+[2026-01-04 18:48:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.10,"humedad":34.20,"timestamp":"00:16:00","voltaje":3.30}
+[2026-01-04 18:48:32] --------------------------------------------------
+[2026-01-04 18:48:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:48:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:49:02] --------------------------------------------------
+[2026-01-04 18:49:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:49:02] Topic: esp32/sensor/data
+[2026-01-04 18:49:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.00,"humedad":34.30,"timestamp":"00:16:30","voltaje":3.30}
+[2026-01-04 18:49:02] --------------------------------------------------
+[2026-01-04 18:49:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:49:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:49:32] --------------------------------------------------
+[2026-01-04 18:49:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:49:32] Topic: esp32/sensor/data
+[2026-01-04 18:49:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.10,"humedad":34.30,"timestamp":"00:17:00","voltaje":3.30}
+[2026-01-04 18:49:32] --------------------------------------------------
+[2026-01-04 18:49:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:49:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:50:02] --------------------------------------------------
+[2026-01-04 18:50:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:50:02] Topic: esp32/sensor/data
+[2026-01-04 18:50:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.00,"humedad":34.40,"timestamp":"00:17:30","voltaje":3.30}
+[2026-01-04 18:50:02] --------------------------------------------------
+[2026-01-04 18:50:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:50:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:50:32] --------------------------------------------------
+[2026-01-04 18:50:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:50:32] Topic: esp32/sensor/data
+[2026-01-04 18:50:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.00,"humedad":34.40,"timestamp":"00:18:00","voltaje":3.30}
+[2026-01-04 18:50:32] --------------------------------------------------
+[2026-01-04 18:50:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:50:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:51:02] --------------------------------------------------
+[2026-01-04 18:51:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:51:02] Topic: esp32/sensor/data
+[2026-01-04 18:51:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.10,"humedad":34.20,"timestamp":"00:18:30","voltaje":3.30}
+[2026-01-04 18:51:02] --------------------------------------------------
+[2026-01-04 18:51:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:51:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:51:32] --------------------------------------------------
+[2026-01-04 18:51:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:51:32] Topic: esp32/sensor/data
+[2026-01-04 18:51:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.10,"humedad":34.50,"timestamp":"00:19:00","voltaje":3.30}
+[2026-01-04 18:51:32] --------------------------------------------------
+[2026-01-04 18:51:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:51:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:52:02] --------------------------------------------------
+[2026-01-04 18:52:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:52:02] Topic: esp32/sensor/data
+[2026-01-04 18:52:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.10,"humedad":34.40,"timestamp":"00:19:30","voltaje":3.30}
+[2026-01-04 18:52:02] --------------------------------------------------
+[2026-01-04 18:52:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:52:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:52:32] --------------------------------------------------
+[2026-01-04 18:52:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:52:32] Topic: esp32/sensor/data
+[2026-01-04 18:52:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.10,"humedad":34.10,"timestamp":"00:20:00","voltaje":3.30}
+[2026-01-04 18:52:32] --------------------------------------------------
+[2026-01-04 18:52:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:52:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:53:02] --------------------------------------------------
+[2026-01-04 18:53:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:53:02] Topic: esp32/sensor/data
+[2026-01-04 18:53:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.20,"humedad":34.10,"timestamp":"00:20:30","voltaje":3.30}
+[2026-01-04 18:53:02] --------------------------------------------------
+[2026-01-04 18:53:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:53:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:53:32] --------------------------------------------------
+[2026-01-04 18:53:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:53:32] Topic: esp32/sensor/data
+[2026-01-04 18:53:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.20,"humedad":34.10,"timestamp":"00:21:00","voltaje":3.30}
+[2026-01-04 18:53:32] --------------------------------------------------
+[2026-01-04 18:53:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:53:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:54:02] --------------------------------------------------
+[2026-01-04 18:54:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:54:02] Topic: esp32/sensor/data
+[2026-01-04 18:54:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.20,"humedad":34.20,"timestamp":"00:21:30","voltaje":3.30}
+[2026-01-04 18:54:02] --------------------------------------------------
+[2026-01-04 18:54:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:54:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:54:32] --------------------------------------------------
+[2026-01-04 18:54:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:54:32] Topic: esp32/sensor/data
+[2026-01-04 18:54:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.20,"humedad":34.20,"timestamp":"00:22:00","voltaje":3.30}
+[2026-01-04 18:54:32] --------------------------------------------------
+[2026-01-04 18:54:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:54:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:55:02] --------------------------------------------------
+[2026-01-04 18:55:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:55:02] Topic: esp32/sensor/data
+[2026-01-04 18:55:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.20,"humedad":34.30,"timestamp":"00:22:30","voltaje":3.30}
+[2026-01-04 18:55:02] --------------------------------------------------
+[2026-01-04 18:55:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:55:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:55:32] --------------------------------------------------
+[2026-01-04 18:55:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:55:32] Topic: esp32/sensor/data
+[2026-01-04 18:55:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.30,"humedad":34.20,"timestamp":"00:23:00","voltaje":3.30}
+[2026-01-04 18:55:32] --------------------------------------------------
+[2026-01-04 18:55:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:55:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:56:02] --------------------------------------------------
+[2026-01-04 18:56:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:56:02] Topic: esp32/sensor/data
+[2026-01-04 18:56:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.30,"humedad":35.00,"timestamp":"00:23:30","voltaje":3.30}
+[2026-01-04 18:56:02] --------------------------------------------------
+[2026-01-04 18:56:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:56:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:56:32] --------------------------------------------------
+[2026-01-04 18:56:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:56:32] Topic: esp32/sensor/data
+[2026-01-04 18:56:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.30,"humedad":34.40,"timestamp":"00:24:00","voltaje":3.30}
+[2026-01-04 18:56:32] --------------------------------------------------
+[2026-01-04 18:56:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:56:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:57:02] --------------------------------------------------
+[2026-01-04 18:57:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:57:02] Topic: esp32/sensor/data
+[2026-01-04 18:57:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.30,"humedad":34.30,"timestamp":"00:24:30","voltaje":3.30}
+[2026-01-04 18:57:02] --------------------------------------------------
+[2026-01-04 18:57:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:57:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:57:32] --------------------------------------------------
+[2026-01-04 18:57:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:57:32] Topic: esp32/sensor/data
+[2026-01-04 18:57:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.30,"humedad":34.30,"timestamp":"00:25:00","voltaje":3.30}
+[2026-01-04 18:57:32] --------------------------------------------------
+[2026-01-04 18:57:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:57:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:58:02] --------------------------------------------------
+[2026-01-04 18:58:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:58:02] Topic: esp32/sensor/data
+[2026-01-04 18:58:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.40,"humedad":34.40,"timestamp":"00:25:30","voltaje":3.30}
+[2026-01-04 18:58:02] --------------------------------------------------
+[2026-01-04 18:58:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:58:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:58:32] --------------------------------------------------
+[2026-01-04 18:58:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:58:32] Topic: esp32/sensor/data
+[2026-01-04 18:58:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.40,"humedad":34.20,"timestamp":"00:26:00","voltaje":3.30}
+[2026-01-04 18:58:32] --------------------------------------------------
+[2026-01-04 18:58:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:58:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:59:02] --------------------------------------------------
+[2026-01-04 18:59:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:59:02] Topic: esp32/sensor/data
+[2026-01-04 18:59:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.50,"humedad":34.20,"timestamp":"00:26:30","voltaje":3.30}
+[2026-01-04 18:59:02] --------------------------------------------------
+[2026-01-04 18:59:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:59:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 18:59:32] --------------------------------------------------
+[2026-01-04 18:59:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 18:59:32] Topic: esp32/sensor/data
+[2026-01-04 18:59:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.50,"humedad":33.90,"timestamp":"00:27:00","voltaje":3.30}
+[2026-01-04 18:59:32] --------------------------------------------------
+[2026-01-04 18:59:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 18:59:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:00:02] --------------------------------------------------
+[2026-01-04 19:00:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:00:02] Topic: esp32/sensor/data
+[2026-01-04 19:00:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.50,"humedad":34.10,"timestamp":"00:27:30","voltaje":3.30}
+[2026-01-04 19:00:02] --------------------------------------------------
+[2026-01-04 19:00:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:00:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:00:32] --------------------------------------------------
+[2026-01-04 19:00:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:00:32] Topic: esp32/sensor/data
+[2026-01-04 19:00:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.40,"humedad":34.00,"timestamp":"00:28:00","voltaje":3.30}
+[2026-01-04 19:00:32] --------------------------------------------------
+[2026-01-04 19:00:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:00:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:01:02] --------------------------------------------------
+[2026-01-04 19:01:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:01:02] Topic: esp32/sensor/data
+[2026-01-04 19:01:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.40,"humedad":34.00,"timestamp":"00:28:30","voltaje":3.30}
+[2026-01-04 19:01:02] --------------------------------------------------
+[2026-01-04 19:01:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:01:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:01:32] --------------------------------------------------
+[2026-01-04 19:01:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:01:32] Topic: esp32/sensor/data
+[2026-01-04 19:01:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.40,"humedad":33.80,"timestamp":"00:29:00","voltaje":3.30}
+[2026-01-04 19:01:32] --------------------------------------------------
+[2026-01-04 19:01:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:01:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:02:02] --------------------------------------------------
+[2026-01-04 19:02:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:02:02] Topic: esp32/sensor/data
+[2026-01-04 19:02:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.40,"humedad":34.00,"timestamp":"00:29:30","voltaje":3.30}
+[2026-01-04 19:02:02] --------------------------------------------------
+[2026-01-04 19:02:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:02:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:02:32] --------------------------------------------------
+[2026-01-04 19:02:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:02:32] Topic: esp32/sensor/data
+[2026-01-04 19:02:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.40,"humedad":33.80,"timestamp":"00:30:00","voltaje":3.30}
+[2026-01-04 19:02:32] --------------------------------------------------
+[2026-01-04 19:02:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:02:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:03:02] --------------------------------------------------
+[2026-01-04 19:03:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:03:02] Topic: esp32/sensor/data
+[2026-01-04 19:03:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.40,"humedad":34.10,"timestamp":"00:30:30","voltaje":3.30}
+[2026-01-04 19:03:02] --------------------------------------------------
+[2026-01-04 19:03:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:03:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:03:32] --------------------------------------------------
+[2026-01-04 19:03:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:03:32] Topic: esp32/sensor/data
+[2026-01-04 19:03:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.50,"humedad":33.90,"timestamp":"00:31:00","voltaje":3.30}
+[2026-01-04 19:03:32] --------------------------------------------------
+[2026-01-04 19:03:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:03:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:04:02] --------------------------------------------------
+[2026-01-04 19:04:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:04:02] Topic: esp32/sensor/data
+[2026-01-04 19:04:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.50,"humedad":33.80,"timestamp":"00:31:30","voltaje":3.30}
+[2026-01-04 19:04:02] --------------------------------------------------
+[2026-01-04 19:04:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:04:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:04:32] --------------------------------------------------
+[2026-01-04 19:04:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:04:32] Topic: esp32/sensor/data
+[2026-01-04 19:04:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.40,"humedad":33.80,"timestamp":"00:32:00","voltaje":3.30}
+[2026-01-04 19:04:32] --------------------------------------------------
+[2026-01-04 19:04:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:04:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:05:02] --------------------------------------------------
+[2026-01-04 19:05:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:05:02] Topic: esp32/sensor/data
+[2026-01-04 19:05:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.40,"humedad":34.20,"timestamp":"00:32:30","voltaje":3.30}
+[2026-01-04 19:05:02] --------------------------------------------------
+[2026-01-04 19:05:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:05:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:05:32] --------------------------------------------------
+[2026-01-04 19:05:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:05:32] Topic: esp32/sensor/data
+[2026-01-04 19:05:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.40,"humedad":34.00,"timestamp":"00:33:00","voltaje":3.30}
+[2026-01-04 19:05:32] --------------------------------------------------
+[2026-01-04 19:05:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:05:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:06:02] --------------------------------------------------
+[2026-01-04 19:06:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:06:02] Topic: esp32/sensor/data
+[2026-01-04 19:06:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.40,"humedad":34.00,"timestamp":"00:33:30","voltaje":3.30}
+[2026-01-04 19:06:02] --------------------------------------------------
+[2026-01-04 19:06:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:06:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:06:32] --------------------------------------------------
+[2026-01-04 19:06:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:06:32] Topic: esp32/sensor/data
+[2026-01-04 19:06:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.40,"humedad":34.20,"timestamp":"00:34:00","voltaje":3.30}
+[2026-01-04 19:06:32] --------------------------------------------------
+[2026-01-04 19:06:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:06:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:07:02] --------------------------------------------------
+[2026-01-04 19:07:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:07:02] Topic: esp32/sensor/data
+[2026-01-04 19:07:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.50,"humedad":34.00,"timestamp":"00:34:30","voltaje":3.30}
+[2026-01-04 19:07:02] --------------------------------------------------
+[2026-01-04 19:07:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:07:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:07:32] --------------------------------------------------
+[2026-01-04 19:07:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:07:32] Topic: esp32/sensor/data
+[2026-01-04 19:07:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.50,"humedad":35.50,"timestamp":"00:35:00","voltaje":3.30}
+[2026-01-04 19:07:32] --------------------------------------------------
+[2026-01-04 19:07:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:07:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:08:02] --------------------------------------------------
+[2026-01-04 19:08:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:08:02] Topic: esp32/sensor/data
+[2026-01-04 19:08:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.50,"humedad":35.50,"timestamp":"00:35:30","voltaje":3.30}
+[2026-01-04 19:08:02] --------------------------------------------------
+[2026-01-04 19:08:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:08:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:08:32] --------------------------------------------------
+[2026-01-04 19:08:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:08:32] Topic: esp32/sensor/data
+[2026-01-04 19:08:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.50,"humedad":34.40,"timestamp":"00:36:00","voltaje":3.30}
+[2026-01-04 19:08:32] --------------------------------------------------
+[2026-01-04 19:08:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:08:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:09:02] --------------------------------------------------
+[2026-01-04 19:09:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:09:02] Topic: esp32/sensor/data
+[2026-01-04 19:09:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.50,"humedad":34.20,"timestamp":"00:36:30","voltaje":3.30}
+[2026-01-04 19:09:02] --------------------------------------------------
+[2026-01-04 19:09:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:09:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:09:32] --------------------------------------------------
+[2026-01-04 19:09:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:09:32] Topic: esp32/sensor/data
+[2026-01-04 19:09:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":27.70,"humedad":100.00,"timestamp":"00:37:00","voltaje":3.30}
+[2026-01-04 19:09:32] --------------------------------------------------
+[2026-01-04 19:09:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:09:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:10:02] --------------------------------------------------
+[2026-01-04 19:10:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:10:02] Topic: esp32/sensor/data
+[2026-01-04 19:10:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":31.20,"humedad":100.00,"timestamp":"00:37:30","voltaje":3.30}
+[2026-01-04 19:10:02] --------------------------------------------------
+[2026-01-04 19:10:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:10:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:10:32] --------------------------------------------------
+[2026-01-04 19:10:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:10:32] Topic: esp32/sensor/data
+[2026-01-04 19:10:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":27.50,"humedad":100.00,"timestamp":"00:38:00","voltaje":3.30}
+[2026-01-04 19:10:32] --------------------------------------------------
+[2026-01-04 19:10:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:10:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:11:02] --------------------------------------------------
+[2026-01-04 19:11:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:11:02] Topic: esp32/sensor/data
+[2026-01-04 19:11:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.50,"humedad":100.00,"timestamp":"00:38:30","voltaje":3.30}
+[2026-01-04 19:11:02] --------------------------------------------------
+[2026-01-04 19:11:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:11:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:11:32] --------------------------------------------------
+[2026-01-04 19:11:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:11:32] Topic: esp32/sensor/data
+[2026-01-04 19:11:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.80,"humedad":94.00,"timestamp":"00:39:00","voltaje":3.30}
+[2026-01-04 19:11:32] --------------------------------------------------
+[2026-01-04 19:11:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:11:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:12:02] --------------------------------------------------
+[2026-01-04 19:12:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:12:02] Topic: esp32/sensor/data
+[2026-01-04 19:12:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.00,"humedad":40.20,"timestamp":"00:39:30","voltaje":3.30}
+[2026-01-04 19:12:02] --------------------------------------------------
+[2026-01-04 19:12:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:12:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:12:32] --------------------------------------------------
+[2026-01-04 19:12:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:12:32] Topic: esp32/sensor/data
+[2026-01-04 19:12:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":25.00,"humedad":39.40,"timestamp":"00:40:00","voltaje":3.30}
+[2026-01-04 19:12:32] --------------------------------------------------
+[2026-01-04 19:12:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:12:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:13:02] --------------------------------------------------
+[2026-01-04 19:13:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:13:02] Topic: esp32/sensor/data
+[2026-01-04 19:13:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.90,"humedad":39.20,"timestamp":"00:40:30","voltaje":3.30}
+[2026-01-04 19:13:02] --------------------------------------------------
+[2026-01-04 19:13:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:13:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:13:32] --------------------------------------------------
+[2026-01-04 19:13:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:13:32] Topic: esp32/sensor/data
+[2026-01-04 19:13:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.90,"humedad":37.00,"timestamp":"00:41:00","voltaje":3.30}
+[2026-01-04 19:13:32] --------------------------------------------------
+[2026-01-04 19:13:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:13:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:14:02] --------------------------------------------------
+[2026-01-04 19:14:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:14:02] Topic: esp32/sensor/data
+[2026-01-04 19:14:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.80,"humedad":35.80,"timestamp":"00:41:30","voltaje":3.30}
+[2026-01-04 19:14:02] --------------------------------------------------
+[2026-01-04 19:14:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:14:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:14:32] --------------------------------------------------
+[2026-01-04 19:14:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:14:32] Topic: esp32/sensor/data
+[2026-01-04 19:14:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.70,"humedad":35.80,"timestamp":"00:42:00","voltaje":3.30}
+[2026-01-04 19:14:32] --------------------------------------------------
+[2026-01-04 19:14:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:14:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:15:02] --------------------------------------------------
+[2026-01-04 19:15:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:15:02] Topic: esp32/sensor/data
+[2026-01-04 19:15:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.70,"humedad":35.70,"timestamp":"00:42:30","voltaje":3.30}
+[2026-01-04 19:15:02] --------------------------------------------------
+[2026-01-04 19:15:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:15:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:15:32] --------------------------------------------------
+[2026-01-04 19:15:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:15:32] Topic: esp32/sensor/data
+[2026-01-04 19:15:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.60,"humedad":34.90,"timestamp":"00:43:00","voltaje":3.30}
+[2026-01-04 19:15:32] --------------------------------------------------
+[2026-01-04 19:15:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:15:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:16:02] --------------------------------------------------
+[2026-01-04 19:16:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:16:02] Topic: esp32/sensor/data
+[2026-01-04 19:16:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.60,"humedad":36.60,"timestamp":"00:43:30","voltaje":3.30}
+[2026-01-04 19:16:02] --------------------------------------------------
+[2026-01-04 19:16:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:16:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:16:32] --------------------------------------------------
+[2026-01-04 19:16:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:16:32] Topic: esp32/sensor/data
+[2026-01-04 19:16:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.60,"humedad":35.00,"timestamp":"00:44:00","voltaje":3.30}
+[2026-01-04 19:16:32] --------------------------------------------------
+[2026-01-04 19:16:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:16:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:17:02] --------------------------------------------------
+[2026-01-04 19:17:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:17:02] Topic: esp32/sensor/data
+[2026-01-04 19:17:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.50,"humedad":34.70,"timestamp":"00:44:30","voltaje":3.30}
+[2026-01-04 19:17:02] --------------------------------------------------
+[2026-01-04 19:17:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:17:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:17:32] --------------------------------------------------
+[2026-01-04 19:17:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:17:32] Topic: esp32/sensor/data
+[2026-01-04 19:17:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.50,"humedad":34.80,"timestamp":"00:45:00","voltaje":3.30}
+[2026-01-04 19:17:32] --------------------------------------------------
+[2026-01-04 19:17:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:17:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:18:02] --------------------------------------------------
+[2026-01-04 19:18:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:18:02] Topic: esp32/sensor/data
+[2026-01-04 19:18:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.50,"humedad":34.70,"timestamp":"00:45:30","voltaje":3.30}
+[2026-01-04 19:18:02] --------------------------------------------------
+[2026-01-04 19:18:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:18:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:18:32] --------------------------------------------------
+[2026-01-04 19:18:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:18:32] Topic: esp32/sensor/data
+[2026-01-04 19:18:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.40,"humedad":34.80,"timestamp":"00:46:00","voltaje":3.30}
+[2026-01-04 19:18:32] --------------------------------------------------
+[2026-01-04 19:18:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:18:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:19:02] --------------------------------------------------
+[2026-01-04 19:19:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:19:02] Topic: esp32/sensor/data
+[2026-01-04 19:19:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.40,"humedad":35.00,"timestamp":"00:46:30","voltaje":3.30}
+[2026-01-04 19:19:02] --------------------------------------------------
+[2026-01-04 19:19:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:19:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:19:32] --------------------------------------------------
+[2026-01-04 19:19:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:19:32] Topic: esp32/sensor/data
+[2026-01-04 19:19:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.40,"humedad":34.80,"timestamp":"00:47:00","voltaje":3.30}
+[2026-01-04 19:19:32] --------------------------------------------------
+[2026-01-04 19:19:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:19:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:20:02] --------------------------------------------------
+[2026-01-04 19:20:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:20:02] Topic: esp32/sensor/data
+[2026-01-04 19:20:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.40,"humedad":34.30,"timestamp":"00:47:30","voltaje":3.30}
+[2026-01-04 19:20:02] --------------------------------------------------
+[2026-01-04 19:20:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:20:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:20:32] --------------------------------------------------
+[2026-01-04 19:20:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:20:32] Topic: esp32/sensor/data
+[2026-01-04 19:20:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.30,"humedad":34.30,"timestamp":"00:48:00","voltaje":3.30}
+[2026-01-04 19:20:32] --------------------------------------------------
+[2026-01-04 19:20:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:20:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:21:02] --------------------------------------------------
+[2026-01-04 19:21:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:21:02] Topic: esp32/sensor/data
+[2026-01-04 19:21:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.30,"humedad":34.40,"timestamp":"00:48:30","voltaje":3.30}
+[2026-01-04 19:21:02] --------------------------------------------------
+[2026-01-04 19:21:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:21:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:21:32] --------------------------------------------------
+[2026-01-04 19:21:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:21:32] Topic: esp32/sensor/data
+[2026-01-04 19:21:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.20,"humedad":34.50,"timestamp":"00:49:00","voltaje":3.30}
+[2026-01-04 19:21:32] --------------------------------------------------
+[2026-01-04 19:21:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:21:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:22:02] --------------------------------------------------
+[2026-01-04 19:22:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:22:02] Topic: esp32/sensor/data
+[2026-01-04 19:22:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.20,"humedad":34.50,"timestamp":"00:49:30","voltaje":3.30}
+[2026-01-04 19:22:02] --------------------------------------------------
+[2026-01-04 19:22:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:22:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:22:32] --------------------------------------------------
+[2026-01-04 19:22:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:22:32] Topic: esp32/sensor/data
+[2026-01-04 19:22:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.10,"humedad":34.70,"timestamp":"00:50:00","voltaje":3.30}
+[2026-01-04 19:22:32] --------------------------------------------------
+[2026-01-04 19:22:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:22:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:23:02] --------------------------------------------------
+[2026-01-04 19:23:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:23:02] Topic: esp32/sensor/data
+[2026-01-04 19:23:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.10,"humedad":34.50,"timestamp":"00:50:30","voltaje":3.30}
+[2026-01-04 19:23:02] --------------------------------------------------
+[2026-01-04 19:23:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:23:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:23:32] --------------------------------------------------
+[2026-01-04 19:23:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:23:32] Topic: esp32/sensor/data
+[2026-01-04 19:23:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.10,"humedad":34.60,"timestamp":"00:51:00","voltaje":3.30}
+[2026-01-04 19:23:32] --------------------------------------------------
+[2026-01-04 19:23:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:23:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:24:02] --------------------------------------------------
+[2026-01-04 19:24:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:24:02] Topic: esp32/sensor/data
+[2026-01-04 19:24:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.00,"humedad":34.60,"timestamp":"00:51:30","voltaje":3.30}
+[2026-01-04 19:24:02] --------------------------------------------------
+[2026-01-04 19:24:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:24:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:24:32] --------------------------------------------------
+[2026-01-04 19:24:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:24:32] Topic: esp32/sensor/data
+[2026-01-04 19:24:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.00,"humedad":34.50,"timestamp":"00:52:00","voltaje":3.30}
+[2026-01-04 19:24:32] --------------------------------------------------
+[2026-01-04 19:24:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:24:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:25:02] --------------------------------------------------
+[2026-01-04 19:25:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:25:02] Topic: esp32/sensor/data
+[2026-01-04 19:25:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.10,"humedad":34.60,"timestamp":"00:52:30","voltaje":3.30}
+[2026-01-04 19:25:02] --------------------------------------------------
+[2026-01-04 19:25:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:25:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:25:32] --------------------------------------------------
+[2026-01-04 19:25:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:25:32] Topic: esp32/sensor/data
+[2026-01-04 19:25:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.00,"humedad":34.60,"timestamp":"00:53:00","voltaje":3.30}
+[2026-01-04 19:25:32] --------------------------------------------------
+[2026-01-04 19:25:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:25:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:26:02] --------------------------------------------------
+[2026-01-04 19:26:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:26:02] Topic: esp32/sensor/data
+[2026-01-04 19:26:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.00,"humedad":34.60,"timestamp":"00:53:30","voltaje":3.30}
+[2026-01-04 19:26:02] --------------------------------------------------
+[2026-01-04 19:26:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:26:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:26:32] --------------------------------------------------
+[2026-01-04 19:26:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:26:32] Topic: esp32/sensor/data
+[2026-01-04 19:26:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.00,"humedad":34.70,"timestamp":"00:54:00","voltaje":3.30}
+[2026-01-04 19:26:32] --------------------------------------------------
+[2026-01-04 19:26:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:26:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:27:03] --------------------------------------------------
+[2026-01-04 19:27:03] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:27:03] Topic: esp32/sensor/data
+[2026-01-04 19:27:03] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.00,"humedad":34.70,"timestamp":"00:54:30","voltaje":3.30}
+[2026-01-04 19:27:03] --------------------------------------------------
+[2026-01-04 19:27:03] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:27:03] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:27:32] --------------------------------------------------
+[2026-01-04 19:27:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:27:32] Topic: esp32/sensor/data
+[2026-01-04 19:27:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.00,"humedad":35.10,"timestamp":"00:55:00","voltaje":3.30}
+[2026-01-04 19:27:32] --------------------------------------------------
+[2026-01-04 19:27:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:27:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:28:03] --------------------------------------------------
+[2026-01-04 19:28:03] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:28:03] Topic: esp32/sensor/data
+[2026-01-04 19:28:03] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.10,"humedad":35.00,"timestamp":"00:55:30","voltaje":3.30}
+[2026-01-04 19:28:03] --------------------------------------------------
+[2026-01-04 19:28:03] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:28:03] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:28:32] --------------------------------------------------
+[2026-01-04 19:28:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:28:32] Topic: esp32/sensor/data
+[2026-01-04 19:28:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.10,"humedad":36.30,"timestamp":"00:56:00","voltaje":3.30}
+[2026-01-04 19:28:32] --------------------------------------------------
+[2026-01-04 19:28:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:28:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:29:03] --------------------------------------------------
+[2026-01-04 19:29:03] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:29:03] Topic: esp32/sensor/data
+[2026-01-04 19:29:03] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.10,"humedad":37.30,"timestamp":"00:56:30","voltaje":3.30}
+[2026-01-04 19:29:03] --------------------------------------------------
+[2026-01-04 19:29:03] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:29:03] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:29:32] --------------------------------------------------
+[2026-01-04 19:29:32] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:29:32] Topic: esp32/sensor/data
+[2026-01-04 19:29:32] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.20,"humedad":35.80,"timestamp":"00:57:00","voltaje":3.30}
+[2026-01-04 19:29:32] --------------------------------------------------
+[2026-01-04 19:29:32] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:29:32] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:30:03] --------------------------------------------------
+[2026-01-04 19:30:03] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:30:03] Topic: esp32/sensor/data
+[2026-01-04 19:30:03] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.20,"humedad":37.50,"timestamp":"00:57:30","voltaje":3.30}
+[2026-01-04 19:30:03] --------------------------------------------------
+[2026-01-04 19:30:03] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:30:03] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:30:33] --------------------------------------------------
+[2026-01-04 19:30:33] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:30:33] Topic: esp32/sensor/data
+[2026-01-04 19:30:33] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.20,"humedad":35.20,"timestamp":"00:58:00","voltaje":3.30}
+[2026-01-04 19:30:33] --------------------------------------------------
+[2026-01-04 19:30:33] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:30:33] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:31:03] --------------------------------------------------
+[2026-01-04 19:31:03] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:31:03] Topic: esp32/sensor/data
+[2026-01-04 19:31:03] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.30,"humedad":35.20,"timestamp":"00:58:30","voltaje":3.30}
+[2026-01-04 19:31:03] --------------------------------------------------
+[2026-01-04 19:31:03] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:31:03] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:31:33] --------------------------------------------------
+[2026-01-04 19:31:33] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:31:33] Topic: esp32/sensor/data
+[2026-01-04 19:31:33] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.30,"humedad":34.90,"timestamp":"00:59:00","voltaje":3.30}
+[2026-01-04 19:31:33] --------------------------------------------------
+[2026-01-04 19:31:33] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:31:33] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:32:02] --------------------------------------------------
+[2026-01-04 19:32:02] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:32:02] Topic: esp32/sensor/data
+[2026-01-04 19:32:02] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.30,"humedad":37.30,"timestamp":"00:59:30","voltaje":3.30}
+[2026-01-04 19:32:02] --------------------------------------------------
+[2026-01-04 19:32:02] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:32:02] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:32:33] --------------------------------------------------
+[2026-01-04 19:32:33] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:32:33] Topic: esp32/sensor/data
+[2026-01-04 19:32:33] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.40,"humedad":38.90,"timestamp":"01:00:00","voltaje":3.30}
+[2026-01-04 19:32:33] --------------------------------------------------
+[2026-01-04 19:32:33] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:32:33] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:33:03] --------------------------------------------------
+[2026-01-04 19:33:03] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:33:03] Topic: esp32/sensor/data
+[2026-01-04 19:33:03] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.40,"humedad":35.00,"timestamp":"01:00:30","voltaje":3.30}
+[2026-01-04 19:33:03] --------------------------------------------------
+[2026-01-04 19:33:03] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:33:03] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:33:33] --------------------------------------------------
+[2026-01-04 19:33:33] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:33:33] Topic: esp32/sensor/data
+[2026-01-04 19:33:33] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.40,"humedad":36.30,"timestamp":"01:01:00","voltaje":3.30}
+[2026-01-04 19:33:33] --------------------------------------------------
+[2026-01-04 19:33:33] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:33:33] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:34:03] --------------------------------------------------
+[2026-01-04 19:34:03] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:34:03] Topic: esp32/sensor/data
+[2026-01-04 19:34:03] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.40,"humedad":35.20,"timestamp":"01:01:30","voltaje":3.30}
+[2026-01-04 19:34:03] --------------------------------------------------
+[2026-01-04 19:34:03] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:34:03] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:34:33] --------------------------------------------------
+[2026-01-04 19:34:33] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:34:33] Topic: esp32/sensor/data
+[2026-01-04 19:34:33] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.40,"humedad":34.90,"timestamp":"01:02:00","voltaje":3.30}
+[2026-01-04 19:34:33] --------------------------------------------------
+[2026-01-04 19:34:33] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:34:33] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:35:03] --------------------------------------------------
+[2026-01-04 19:35:03] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:35:03] Topic: esp32/sensor/data
+[2026-01-04 19:35:03] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.40,"humedad":35.40,"timestamp":"01:02:30","voltaje":3.30}
+[2026-01-04 19:35:03] --------------------------------------------------
+[2026-01-04 19:35:03] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:35:03] Actualizando dispositivo: ESP32_KHI9GU
+
+[2026-01-04 19:35:33] --------------------------------------------------
+[2026-01-04 19:35:33] 📨 MENSAJE RECIBIDO
+[2026-01-04 19:35:33] Topic: esp32/sensor/data
+[2026-01-04 19:35:33] Mensaje: {"dispositivo":"ESP32_KHI9GU","temperatura":24.40,"humedad":34.70,"timestamp":"01:03:00","voltaje":3.30}
+[2026-01-04 19:35:33] --------------------------------------------------
+[2026-01-04 19:35:33] Procesando datos de: ESP32_KHI9GU
+[2026-01-04 19:35:33] Actualizando dispositivo: ESP32_KHI9GU

@@ -22,12 +22,30 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
         if(!$data){
             $error_message = "Usuario o contraseña incorrectos";
         } else {
-            // Obtener hash generado por MariaDB
-            $stmt2 = $pdo->prepare("SELECT PASSWORD(?)");
-            $stmt2->execute([$pass]);
-            $hashed = $stmt2->fetchColumn();
-
-            if($hashed != $data["password"]){
+            // DETECTAR TIPO DE HASH Y VERIFICAR
+            $password_ok = false;
+            
+            // Opción 1: Verificar si es hash de PHP (password_hash)
+            if(password_verify($pass, $data["password"])){
+                $password_ok = true;
+            } 
+            // Opción 2: Verificar si es hash de MariaDB (PASSWORD())
+            else {
+                $stmt2 = $pdo->prepare("SELECT PASSWORD(?)");
+                $stmt2->execute([$pass]);
+                $hashed = $stmt2->fetchColumn();
+                
+                if($hashed == $data["password"]){
+                    $password_ok = true;
+                    
+                    // Migrar automáticamente a password_hash() para futuros logins
+                    $new_hash = password_hash($pass, PASSWORD_DEFAULT);
+                    $update_stmt = $pdo->prepare("UPDATE users SET password=? WHERE id=?");
+                    $update_stmt->execute([$new_hash, $data["id"]]);
+                }
+            }
+            
+            if(!$password_ok){
                 $error_message = "Usuario o contraseña incorrectos";
             } else {
                 // Si es técnico pendiente
@@ -64,8 +82,6 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
         }
     }
 }
-
-// Si llegamos aquí, mostramos el formulario con errores
 ?>
 <!DOCTYPE html>
 <html lang="es">
