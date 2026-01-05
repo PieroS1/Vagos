@@ -514,14 +514,7 @@ if(!empty($dispositivo['codigo'])) {
                     </div>
                 </div>
                 <div class="col-md-4 text-end">
-                    <div class="d-flex gap-2 justify-content-end">
-                        <a href="index.php" class="btn btn-light btn-sm">
-                            <i class="bi bi-house-door me-1"></i> Dashboard
-                        </a>
-                        <a href="dispositivos.php" class="btn btn-outline-light btn-sm">
-                            <i class="bi bi-cpu me-1"></i> Mis Dispositivos
-                        </a>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -796,15 +789,11 @@ if(!empty($dispositivo['codigo'])) {
 
         <!-- Botones de acción -->
         <div class="d-flex gap-2 mt-4">
-            <a href="dispositivos.php" class="btn btn-outline-secondary">
+            <a href="index.php" class="btn btn-primary">
                 <i class="bi bi-arrow-left me-2"></i>
                 Volver a Mis Dispositivos
             </a>
             
-            <a href="index.php" class="btn btn-primary">
-                <i class="bi bi-speedometer2 me-2"></i>
-                Ir al Dashboard
-            </a>
         </div>
     </div>
 
