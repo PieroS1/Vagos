@@ -3,15 +3,15 @@
 #include <DHT.h>
 
 // ========== CONFIGURACIÓN WiFi ==========
-const char* ssid = "RAFITA2021-2.4G";
-const char* password = "2107772000";
+const char* ssid = "Tu WIFI";
+const char* password = "Tu contrasena";
 
 // ========== CONFIGURACIÓN MQTT ==========
-const char* mqtt_server = "192.168.15.66"; // VERIFICA ESTA IP
+const char* mqtt_server = "La Ip de la maquina virtual"; // VERIFICA ESTA IP
 const int mqtt_port = 1883;
 
 // ========== CONFIGURACIÓN DISPOSITIVO ==========
-const char* dispositivo_codigo = "ESP32_SM0S69"; // MISMO QUE EN LA WEB
+const char* dispositivo_codigo = "ID de esp32 que vas a usar"; // MISMO QUE EN LA WEB
 
 // ========== CONFIGURACIÓN SENSOR ==========
 #define DHTPIN 4
